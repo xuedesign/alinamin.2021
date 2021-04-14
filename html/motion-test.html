@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motion-Test</title>
+    <style>
+        #wrap{
+            display: flex;
+            width: 80%;
+            margin: 10% auto;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            border: 1px solid #e2e2e2}
+        #box-01,
+        #box-02,
+        #box-03{
+            display: block;
+            width: 300px;
+            height: 300px;
+            border: 5px solid #e3e3e3;
+            font-size: 200px;
+            line-height: 300px;
+            font-weight:bold;
+            color: rgb(51, 51, 51);
+            text-align: center}
+        #box-01{ 
+            background: rgb(255, 238, 0);
+            -webkit-animation-name: pulse;
+            animation-name: pulse;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            animation-duration: 2s;/*動畫演譯時間*/
+            animation-iteration-count: infinite;/*動畫循環的次數，無限循環用infinite*/
+            animation-direction: alternate;/*動畫在0%到100%之間往復執行*/}
+        #box-02{ background: rgb(63, 216, 63);
+            -webkit-animation-name: headShake;
+            animation-name: headShake;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            animation-duration: 2s;/*動畫演譯時間*/
+            animation-iteration-count: infinite;/*動畫循環的次數，無限循環用infinite*/
+            animation-direction: alternate;/*動畫在0%到100%之間往復執行*/}
+        #box-03{ background: rgb(238, 70, 70);
+            -webkit-animation-name: shakeY;
+            animation-name: shakeY;
+            -webkit-animation-timing-function: ease-in-out;
+            animation-timing-function: ease-in-out;
+            animation-duration: 3s;/*動畫演譯時間*/
+            animation-iteration-count: infinite;/*動畫循環的次數，無限循環用infinite*/
+            animation-direction: alternate;/*動畫在0%到100%之間往復執行*/}
+
+        @-webkit-keyframes pulse {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+            }
+
+            50% {
+                -webkit-transform: scale3d(1.05, 1.05, 1.05);
+                transform: scale3d(1.05, 1.05, 1.05);
+            }
+
+            to {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+            }
+            }
+            @keyframes pulse {
+            from {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+            }
+
+            50% {
+                -webkit-transform: scale3d(1.05, 1.05, 1.05);
+                transform: scale3d(1.05, 1.05, 1.05);
+            }
+
+            to {
+                -webkit-transform: scale3d(1, 1, 1);
+                transform: scale3d(1, 1, 1);
+            }
+            }
+
+
+            @-webkit-keyframes headShake {
+                0% {
+                    -webkit-transform: translateX(0);
+                    transform: translateX(0);
+                }
+
+                6.5% {
+                    -webkit-transform: translateX(-6px) rotateY(-9deg);
+                    transform: translateX(-6px) rotateY(-9deg);
+                }
+
+                18.5% {
+                    -webkit-transform: translateX(5px) rotateY(7deg);
+                    transform: translateX(5px) rotateY(7deg);
+                }
+
+                31.5% {
+                    -webkit-transform: translateX(-3px) rotateY(-5deg);
+                    transform: translateX(-3px) rotateY(-5deg);
+                }
+
+                43.5% {
+                    -webkit-transform: translateX(2px) rotateY(3deg);
+                    transform: translateX(2px) rotateY(3deg);
+                }
+
+                50% {
+                    -webkit-transform: translateX(0);
+                    transform: translateX(0);
+                }
+                }
+                @keyframes headShake {
+                0% {
+                    -webkit-transform: translateX(0);
+                    transform: translateX(0);
+                }
+
+                6.5% {
+                    -webkit-transform: translateX(-6px) rotateY(-9deg);
+                    transform: translateX(-6px) rotateY(-9deg);
+                }
+
+                18.5% {
+                    -webkit-transform: translateX(5px) rotateY(7deg);
+                    transform: translateX(5px) rotateY(7deg);
+                }
+
+                31.5% {
+                    -webkit-transform: translateX(-3px) rotateY(-5deg);
+                    transform: translateX(-3px) rotateY(-5deg);
+                }
+
+                43.5% {
+                    -webkit-transform: translateX(2px) rotateY(3deg);
+                    transform: translateX(2px) rotateY(3deg);
+                }
+
+                50% {
+                    -webkit-transform: translateX(0);
+                    transform: translateX(0);
+                }
+                }
+                
+                @-webkit-keyframes shakeY {
+                    from,
+                    to {
+                        -webkit-transform: translate3d(0, 0, 0);
+                        transform: translate3d(0, 0, 0);
+                    }
+
+                    5%,
+                    15%{
+                        -webkit-transform: translate3d(0, -10px, 0);
+                        transform: translate3d(0, -10px, 0);
+                    }
+
+                    10%,
+                    20%{
+                        -webkit-transform: translate3d(0, 10px, 0);
+                        transform: translate3d(0, 10px, 0);
+                    }
+                    30%{
+                        -webkit-transform: translate3d(0, 0, 0);
+                        transform: translate3d(0, 0, 0);
+                    }
+                    }
+                    @keyframes shakeY {
+                    from,
+                    to {
+                        -webkit-transform: translate3d(0, 0, 0);
+                        transform: translate3d(0, 0, 0);
+                    }
+
+                    5%,
+                    15%{
+                        -webkit-transform: translate3d(0, -10px, 0);
+                        transform: translate3d(0, -10px, 0);
+                    }
+
+                    10%,
+                    20%{
+                        -webkit-transform: translate3d(0, 10px, 0);
+                        transform: translate3d(0, 10px, 0);
+                    }
+                    30%{
+                        -webkit-transform: translate3d(0, 0, 0);
+                        transform: translate3d(0, 0, 0);
+                    }
+                    }
+        
+        @media (max-width:1400px){
+            #wrap{ width: 90%}
+            #box-01,
+            #box-02,
+            #box-03{
+                width: 250px;
+                height: 250px;
+                line-height: 250px}
+            }
+        @media (max-width:800px){
+            #box-01,
+            #box-02,
+            #box-03{ margin-bottom: 100px}
+        }
+        @media (max-width: 321px){
+            #box-01,
+            #box-02,
+            #box-03{
+                width: 150px;
+                height: 150px;
+                line-height: 150px;
+                font-size: 100px;}
+            }
+        }       
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div id="box-01">A</div>
+        <div id="box-02">B</div>
+        <div id="box-03">C</div>
+    </div>
+</body>
+</html>
