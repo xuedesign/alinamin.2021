@@ -1,0 +1,12 @@
+[13-Apr-2021 12:53:17 Asia/Taipei] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 12:53:17 Asia/Taipei] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 12:53:41 Asia/Taipei] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 12:53:41 Asia/Taipei] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 13:01:09 Asia/Taipei] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 13:01:09 Asia/Taipei] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 13:01:32 Asia/Taipei] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 13:01:32 Asia/Taipei] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 13:20:50 Asia/Taipei] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 13:20:50 Asia/Taipei] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 13:21:00 Asia/Taipei] PHP Warning:  require_once(config.php): failed to open stream: No such file or directory in /home/xuedesi1/public_html/demo/test/index.php on line 1
+[13-Apr-2021 13:21:00 Asia/Taipei] PHP Fatal error:  require_once(): Failed opening required 'config.php' (include_path='.:/opt/alt/php71/usr/share/pear') in /home/xuedesi1/public_html/demo/test/index.php on line 1
