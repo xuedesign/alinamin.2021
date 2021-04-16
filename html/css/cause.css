@@ -464,11 +464,16 @@ h3::after{
 		line-height: 48px;
 		padding: 10px 0;
 	}
+
+	.chat{ 
+		margin-bottom: 180px
+	}
+
 	.chat > div{
 		width: 160px;
 	}
 	.chat-p1{
-		font-size: 30px;
+		font-size: 25px;/* 30px */
 	}
 
 	.chat-u1 li{
@@ -496,7 +501,7 @@ h3::after{
 		min-height: initial;
 	}
 	.chat .slogan{
-		top: 35%;
+		bottom: -15%;
 	}
 	.science-box > div{
 		padding-left: 0;
@@ -597,6 +602,12 @@ h3::after{
 
 	.tip{
 		text-align: left!important;
+	}
+}
+
+@media screen and (max-width:660px){
+	.chat-p1{
+		font-size: 23px;
 	}
 }
 
@@ -801,8 +812,8 @@ h3::after{
 		display: block;
 	}
 	.kv{
-/*		display: flex;
-		flex-direction: column-reverse;*/
+		display: flex;
+	/*	flex-direction: column-reverse;
 		height: 820px;
 		padding-top: 0px;
 	}
