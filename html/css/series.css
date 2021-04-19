@@ -17,7 +17,7 @@ h1{
 	overflow: hidden;
 	z-index: 1;
 	border-radius: 30px;
-	background: #d3be79;
+	background: #df0615;
 	width:fit-content;
 	margin: 10px auto 0 auto;
 	padding: 3px 20px;
@@ -28,13 +28,13 @@ h1{
 	letter-spacing: 1px;
 	color: #fff;
 	text-shadow: 0 0 5px rgb(126, 126, 126);
-	box-shadow: 3px 4px 0 #aa9f79
+	box-shadow: 3px 4px 0 #ab000c
 }
 .subtitle::before{
 	content: "";
 	width: 0%;
 	height: 100%;
-	background:#b8a567;
+	background:#ab000c;
 	top: 0;
 	left:0;
 	position: absolute;
