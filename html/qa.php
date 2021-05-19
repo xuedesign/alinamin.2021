@@ -83,7 +83,7 @@
                                                     <a href="<?php echo $rootURL;?>product/a25"class="prod" g-event="Q&A_合利他命全產品_Q1_A25產品介紹">產品介紹</a>
                                                 </li>
                                                 <li><img src="<?php echo $rootURL;?>images/qa/a25_font.png" class="font"></li>
-                                                <li>輕度：疲勞</li>
+                                                <li>疲勞</li>
                                                 <li>
                                                     <span>有效解決</span>
                                                     <span>身體疲勞</span>
@@ -131,7 +131,7 @@
                                                     <a href="<?php echo $rootURL;?>product/explus"class="prod" g-event="Q&A_合利他命全產品_Q1_EX PLUS產品介紹">產品介紹</a>
                                                 </li>
                                                 <li><img src="<?php echo $rootURL;?>images/qa/plus_font.png" class="font"></li>
-                                                <li>中度：酸痛</li>
+                                                <li>酸痛</li>
                                                 <li>
                                                     <span>有效緩解</span>
                                                     <span>眼睛疲勞</span>
@@ -140,7 +140,7 @@
                                                 </li>
                                                 <li>
                                                     <span>1日2-3錠</span>
-                                                    <span>分2-3次飯後服用</span>
+                                                    <span>飯後1次服用</span>
                                                 </li>
                                                 <li class="phone decription">
                                                     <div class="item">
@@ -192,7 +192,7 @@
                                                     <a href="<?php echo $rootURL;?>product/exgold" class="prod" g-event="Q&A_合利他命全產品_Q1_EX GOLD產品介紹">產品介紹</a>
                                                 </li>
                                                 <li><img src="<?php echo $rootURL;?>images/qa/gold_font.png" class="font"></li>
-                                                <li>重度：末梢發麻</li>
+                                                <li>末梢神經發麻</li>
                                                 <li>
                                                     <span>有效緩解</span>
                                                     <span>末梢神經發麻</span>
@@ -202,7 +202,8 @@
                                                 </li>
                                                 <li>
                                                     <span>1日3錠</span>
-                                                    <span>分2-3次飯後服用</span>
+                                                    <span>分3次飯後服用</span>
+                                                    <span>1次1錠</span>
                                                 </li>
                                                 <li class="phone decription">
                                                     <div class="item">
@@ -585,8 +586,8 @@
                             <div class="answerContent">
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
-                                    <p>活性維生素 B6 為 pyridoxal phosphate hydrate、B12 為 methylcobalamin，而非活性之維生素 B6 與 B12 則為 pyridoxine 與 cobalamin。</p>
-                                    <p>活性維生素 B6 , B12 能較快進入細胞發揮作用，改善及維持神經系統 (含末梢神經系統) 的健康。(當非活性維生 B6 , B12 進入人體後，需要時間進行生物轉化成活性態)</p>
+                                    <p>活性維生素 B<b class="f-s-em8">6</b> 為 pyridoxal phosphate hydrate、B<b class="f-s-em8">12</b> 為 methylcobalamin，而非活性之維生素 B<b class="f-s-em8">6</b> 與 B<b class="f-s-em8">12</b> 則為 pyridoxine 與 cobalamin。</p>
+                                    <p>活性維生素 B<b class="f-s-em8">6</b> , B<b class="f-s-em8">12</b> 能較快進入細胞發揮作用，改善及維持神經系統 (含末梢神經系統) 的健康。(當非活性維生 B<b class="f-s-em8">6</b> , B<b class="f-s-em8">12</b> 進入人體後，需要時間進行生物轉化成活性態)</p>
                                 </div>
                             </div>
                         </div>

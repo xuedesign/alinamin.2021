@@ -15,7 +15,7 @@
     <meta property="og:description" content="你的疲。酸。麻原因，來自不同程度維生素B1缺乏，導致細胞能量不足及神經傳導出現問題，產生疲勞酸痛、僵硬、末梢發麻等不適症狀">
     <meta property="og:url" content="<?php echo $rootURL;?>cause">
 
-    <link rel="stylesheet" href="<?php echo $rootURL;?>css/cause.css?t=0201">
+    <link rel="stylesheet" href="<?php echo $rootURL;?>css/cause.css?t=0519">
         <!-- Lightning Bolt Begins -->
     <script type="text/javascript" id="lightning_bolt" src="//cdn-akamai.mookie1.com/LB/LightningBolt.js"></script>
     <!-- Lightning Bolt Ends -->
