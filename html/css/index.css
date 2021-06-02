@@ -48,7 +48,8 @@
 	position: absolute;
 	width: 293px;
 	height: 537px;
-	background: url(../images/intro/redblock_left.png);
+	/* background: url(../images/intro/redblock_left.png); */
+    background: url(https://alinamin.com.tw/images/intro/redblock_left.png);
 	left: 0;
 	top: -60px;
 	padding-top: 90px;
@@ -59,7 +60,8 @@
 	position: absolute;
 	width: 293px;
 	height: 537px;
-	background: url(../images/intro/redblock_right.png);
+	/* background: url(../images/intro/redblock_right.png); */
+    background: url(https://alinamin.com.tw/images/intro/redblock_right.png);
 	right: 0;
 	bottom: 0;
 }
