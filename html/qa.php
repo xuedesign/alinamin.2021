@@ -587,11 +587,30 @@
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
                                     <p>活性維生素 B<b class="f-s-em8">6</b> 為 pyridoxal phosphate hydrate、B<b class="f-s-em8">12</b> 為 methylcobalamin，而非活性之維生素 B<b class="f-s-em8">6</b> 與 B<b class="f-s-em8">12</b> 則為 pyridoxine 與 cobalamin。</p>
-                                    <p>活性維生素 B<b class="f-s-em8">6</b> , B<b class="f-s-em8">12</b> 能較快進入細胞發揮作用，改善及維持神經系統 (含末梢神經系統) 的健康。(當非活性維生 B<b class="f-s-em8">6</b> , B<b class="f-s-em8">12</b> 進入人體後，需要時間進行生物轉化成活性態)</p>
+                                    <p>活性維生素 B<b class="f-s-em8">6</b> , B<b class="f-s-em8">12</b> 能較快進入細胞發揮作用，改善及維持神經系統 (含末梢神經系統) 的健康。(當非活性維生素 B<b class="f-s-em8">6</b> , B<b class="f-s-em8">12</b> 進入人體後，需要時間進行生物轉化成活性態)</p>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <div class="qaBox">
+                        <div class="question collapsed" data-toggle="collapse" data-target="#cq14" aria-expanded="false" aria-controls="cq14">
+                            <div class="txt">
+                                <span>Q <b>3</b></span>
+                                <p>維生素B<b class="f-s-em8">1</b>是否能增強免疫力?</p>
+                            </div>
+                            <!-- <i class="fas fa-plus"></i> -->
+                        </div>
+                        <div class="answer collapse" id="cq14" data-parent="#qa">
+                            <div class="answerContent">
+                                <i class="fas fa-caret-right"></i>
+                                <div class="content">
+                                    <p>人體內的免疫細胞，大部分集中在腸道裡的「培氏斑塊（Peyer’s patch）」內，若體內的維生素B<b class="f-s-em8">1</b>不足，會讓培氏斑塊縮小，免疫細胞數量減少的同時連帶讓免疫力下降。維持體內維生素B<b class="f-s-em8">1</b>充足，免疫細胞就能維持一定的數量，同時也能增加免疫力。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div> 
 
                 <div class="accordion" id="qa" v-if="kind=='a25'">

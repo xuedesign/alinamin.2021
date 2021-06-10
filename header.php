@@ -36,6 +36,10 @@
       gtag('js', new Date());
 
       gtag('config', 'UA-187222482-1');
+      gtag('event','click',{'event_category':'全系列產品_緩解因B群不足BTN','event_label':'全系列產品_緩解因B群不足BTN'});
+      gtag('event','click',{'event_category':'Q&A_認識維生素B_Q1','event_label':'Q&A_認識維生素B_Q1'});
+      gtag('event','click',{'event_category':'Q&A_認識維生素B_Q2','event_label':'Q&A_認識維生素B_Q2'});
+      gtag('event','click',{'event_category':'Q&A_認識維生素B_Q3','event_label':'Q&A_認識維生素B_Q3'});
     </script>
     <script>
         var pageName='<?php echo $page;?>';
