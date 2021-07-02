@@ -88,6 +88,7 @@ section .blogList a::after{
 	-webkit-transition: all 0.5s ease 0s;
     -moz-transition: all 0.5s ease 0s;
     transition: all 0.5s ease 0s;
+	clear: both;
 }
 
 section .blogList a:hover::after{
@@ -107,7 +108,7 @@ section .blogList a:hover::after{
 .blogList-title h5{
 	display: block;
 	position: absolute;
-	left: 42%;
+	left: 40.5%;
 	bottom:-20px;
 	font-size:30px;
 	text-align: center;
@@ -143,11 +144,37 @@ section .content{
 	background: #fff;
 	padding: 40px 0 50px 0;
 }
+
 .blogBox .container{
 	/*display: flex;
 	justify-content: center;
 	align-items: center;*/
 }
+
+.blogBox .container h4{
+	font-size:28px;
+	color: #df0615;
+	line-height:38px
+}
+
+.blogBox .container p{
+	font-size:18px;
+	line-height:30px;
+	text-align: justify;
+	margin: 20px 0;
+}
+
+.blogBox .container img{
+	display:block;
+	max-width: 80%;
+	margin: 0 auto 20px auto;
+}
+
+.blogBox .container > section{
+	margin-bottom: 30px;
+	background:#fff;
+}
+
 .blogBox .container > div{
 	margin: 0 40px;
 	display: inline-block;
@@ -215,11 +242,43 @@ h3::after{
 	border-right:9px solid #df0615; 
 }
 
+@media (max-width:1110px){
+	.listText h4 br{
+		display: none;
+	}
+	section .blogList p{
+		margin: 10px 20px;
+		padding: 0;
+		overflow:hidden;
+		text-overflow:ellipsis;
+		display:-webkit-box;
+		-webkit-line-clamp:2;
+		-webkit-box-orient:vertical;
+	}
+	section .blogList a,
+	section .blogList a:visited{
+		padding: 0 30px 0 0 
+	}
+	
+	section .blogList a:hover{
+		padding: 0 20px 0 0 ;
+	}
+
+	.blogBox .container > section{
+		padding: 0 30px;
+	}
+
+	.blogList-title h5{
+		left: 38%;
+	}
+}
 
 @media screen and (max-width:800px){
+	.title{
+		margin-bottom: 50px;
+	}
 	section .content{
 		width: calc(100% - 60px);
-		
 	}
 	.content > .body{
 		padding-left: 25px;
@@ -235,34 +294,45 @@ h3::after{
 		justify-content: center;
 		flex-direction: column;
 	}
-	.blogBox .container > div{
-		width: 100%;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		flex-direction: row;
-		margin-bottom: 50px;
-	}
-	.blogBox .container > div .icon{
-		margin-bottom: 0;
-		margin-right: 40px;
-		height: auto;
-		width: 131px;
-	}
-	.blogBox .container > div .icon img{
-		width: 100%;
-	}
-	.blogBox .container > div p{
-		width: 12em;
-	}
-	.blogBox .container > div .arrow{
-		transform: rotate(-90deg);
-		margin-left: 25px;
-		    -webkit-animation: arrowRight2 1s ease-out 0s infinite alternate both;
-    	animation: arrowRight2 1s ease-out 0s infinite alternate both;
-	}
 	.content > .body{
 		padding: 50px 0 0 0;
+	}
+	
+	section .blogList{
+		width: 80%
+	}
+	section .blogList li{
+		display: block
+	}
+
+	section .blogList .listPic{
+		width: 100%;
+		margin-bottom: 20px;
+	}
+
+	section .blogList .listText{
+		width: 100%;
+		padding-bottom: 65px;
+	}
+
+	section .listText h4{
+		font-size:22px;
+		line-height: 32px;
+		letter-spacing: 1px;
+		padding: 10px 20px;
+	}
+
+	section .blogList a,
+	section .blogList a:visited{
+		padding: 20px 30px 0 0 
+	}
+	
+	section .blogList a:hover{
+		padding: 20px 20px 0 0 ;
+	}
+
+	.blogList-title h5{
+		left: 28%;
 	}
 
 }
