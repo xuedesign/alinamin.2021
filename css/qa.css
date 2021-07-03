@@ -411,6 +411,15 @@ a.prod:hover:before{
     transform: rotate(90deg);
 }
 
+/*202104 Tachimoma新增*/
+.newtitle{
+    color: #df0615;
+    font-size: 1.7em;
+    line-height: 2em;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
 @media(max-width: 1160px){
     .containerBox{
         width: 100%;

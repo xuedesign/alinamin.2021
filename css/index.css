@@ -48,7 +48,8 @@
 	position: absolute;
 	width: 293px;
 	height: 537px;
-	background: url(../images/intro/redblock_left.png);
+	/* background: url(../images/intro/redblock_left.png); */
+    background: url(https://alinamin.com.tw/images/intro/redblock_left.png);
 	left: 0;
 	top: -60px;
 	padding-top: 90px;
@@ -59,7 +60,8 @@
 	position: absolute;
 	width: 293px;
 	height: 537px;
-	background: url(../images/intro/redblock_right.png);
+	/* background: url(../images/intro/redblock_right.png); */
+    background: url(https://alinamin.com.tw/images/intro/redblock_right.png);
 	right: 0;
 	bottom: 0;
 }
@@ -135,9 +137,9 @@
 	overflow: hidden;
 }
 .s2 a:nth-child(1) dt::after{animation-delay: 0s;}
-.s2 a:nth-child(2) dt::after{animation-delay: 3s;}
-.s2 a:nth-child(3) dt::after{animation-delay: 1.5s;}
-.s2 dt::after {
+/* .s2 a:nth-child(2) dt::after{animation-delay: 3s;}
+.s2 a:nth-child(3) dt::after{animation-delay: 1.5s;} */
+.s2 .cause_motion dt::after {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -184,6 +186,59 @@
 .s2 dl:hover dd i::after{
 	content: ">>";
 }
+
+/*2021-04 Tachimoma新增*/
+.cause_motion{
+    -webkit-animation-name: headShake;
+    animation-name: headShake;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate
+}
+@-webkit-keyframes headShake {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);}
+    6.5% {
+        -webkit-transform: translateX(-6px) rotateY(-9deg);
+        transform: translateX(-6px) rotateY(-9deg);}
+    18.5% {
+        -webkit-transform: translateX(5px) rotateY(7deg);
+        transform: translateX(5px) rotateY(7deg);}
+    31.5% {
+        -webkit-transform: translateX(-3px) rotateY(-5deg);
+        transform: translateX(-3px) rotateY(-5deg);}
+    43.5% {
+        -webkit-transform: translateX(2px) rotateY(3deg);
+        transform: translateX(2px) rotateY(3deg);}
+    50% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);}
+    }
+@keyframes headShake {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);}
+    6.5% {
+        -webkit-transform: translateX(-6px) rotateY(-9deg);
+        transform: translateX(-6px) rotateY(-9deg);}
+    18.5% {
+        -webkit-transform: translateX(5px) rotateY(7deg);
+        transform: translateX(5px) rotateY(7deg);}
+    31.5% {
+        -webkit-transform: translateX(-3px) rotateY(-5deg);
+        transform: translateX(-3px) rotateY(-5deg)}
+    43.5% {
+        -webkit-transform: translateX(2px) rotateY(3deg);
+        transform: translateX(2px) rotateY(3deg)}
+    50% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0)}
+    }
+
+
 @media screen and (max-width:1200px){
     .slide-box img{
         height: 100%;

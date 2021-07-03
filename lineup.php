@@ -31,6 +31,9 @@
                 <img src="<?php echo $rootURL;?>images/series/title2.png" alt="" class="pc">
                 <img src="<?php echo $rootURL;?>images/series/m_title2.png" alt="" class="mb">
             </h1>
+            
+            <h2><a class="subtitle" href="<?php echo $rootURL;?>cause">緩解因Ｂ群不足所引起的疲、酸、麻</a></h2>
+
             <div class="series-list">
                 <div class="shadow-4"  data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
                     <p class="pc">一吃有感<br>迅速消除疲勞</p>
@@ -287,7 +290,7 @@
                  </div>
             </div>
         </section>
-        <ol class="tip m-t30">衛署藥製字第030689號   衛署藥輸字第025431號   衛部藥輸字第027584號   北市衛藥廣字第110010051號   C-APROM/TW/THI/0030 DEC 2020   本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</ol>
+        <ol class="tip m-t30">衛署藥製字第030689號   衛署藥輸字第025431號   衛部藥輸字第027584號   北市衛藥廣字第110010051/110050127號   C-APROM/TW/THI/0030 DEC 2020   本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</ol>
         <?php require('footer.php'); ?>
         <script src="<?php echo $rootURL;?>scripts/jquery-3.4.1.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

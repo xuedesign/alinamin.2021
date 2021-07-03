@@ -65,7 +65,8 @@
 	left:0;
 	background: #e8452c;
 	border-radius: 55px;
-	top: 29%;
+	/* top:50% */
+	bottom: 6%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -90,7 +91,7 @@
 	position: relative;
 }
 .chat > div > div:nth-of-type(2){
-	min-height: 310px;
+	min-height: 200px;/* 310px */
 }
 .chat-arrow{
 	height: 387px;
@@ -111,7 +112,7 @@
 	margin-top: -88px;
 }
 .chat-p1{
-	font-size: 42px;
+	font-size: 35px;/*42px*/
 	font-weight: 500;
 	margin-bottom: 25px;
 }
@@ -149,7 +150,7 @@
 .chat-u2{
 	position: relative;
 	width: 138px;
-	margin: 0 auto;
+	margin: 20px  auto 0 auto;
 }
 .chat-u2 li{
 	color: #221815;
@@ -463,11 +464,16 @@ h3::after{
 		line-height: 48px;
 		padding: 10px 0;
 	}
+
+	.chat{ 
+		margin-bottom: 180px
+	}
+
 	.chat > div{
 		width: 160px;
 	}
 	.chat-p1{
-		font-size: 30px;
+		font-size: 25px;/* 30px */
 	}
 
 	.chat-u1 li{
@@ -495,7 +501,7 @@ h3::after{
 		min-height: initial;
 	}
 	.chat .slogan{
-		top: 35%;
+		bottom: -15%;
 	}
 	.science-box > div{
 		padding-left: 0;
@@ -596,6 +602,12 @@ h3::after{
 
 	.tip{
 		text-align: left!important;
+	}
+}
+
+@media screen and (max-width:660px){
+	.chat-p1{
+		font-size: 23px;
 	}
 }
 
@@ -800,8 +812,8 @@ h3::after{
 		display: block;
 	}
 	.kv{
-/*		display: flex;
-		flex-direction: column-reverse;*/
+		display: flex;
+	/*	flex-direction: column-reverse;
 		height: 820px;
 		padding-top: 0px;
 	}
