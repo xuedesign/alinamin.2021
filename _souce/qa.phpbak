@@ -83,7 +83,7 @@
                                                     <a href="<?php echo $rootURL;?>product/a25"class="prod" g-event="Q&A_合利他命全產品_Q1_A25產品介紹">產品介紹</a>
                                                 </li>
                                                 <li><img src="<?php echo $rootURL;?>images/qa/a25_font.png" class="font"></li>
-                                                <li>疲勞</li>
+                                                <li>輕度：疲勞</li>
                                                 <li>
                                                     <span>有效解決</span>
                                                     <span>身體疲勞</span>
@@ -131,7 +131,7 @@
                                                     <a href="<?php echo $rootURL;?>product/explus"class="prod" g-event="Q&A_合利他命全產品_Q1_EX PLUS產品介紹">產品介紹</a>
                                                 </li>
                                                 <li><img src="<?php echo $rootURL;?>images/qa/plus_font.png" class="font"></li>
-                                                <li>酸痛</li>
+                                                <li>中度：酸痛</li>
                                                 <li>
                                                     <span>有效緩解</span>
                                                     <span>眼睛疲勞</span>
@@ -140,7 +140,7 @@
                                                 </li>
                                                 <li>
                                                     <span>1日2-3錠</span>
-                                                    <span>飯後1次服用</span>
+                                                    <span>分2-3次飯後服用</span>
                                                 </li>
                                                 <li class="phone decription">
                                                     <div class="item">
@@ -192,7 +192,7 @@
                                                     <a href="<?php echo $rootURL;?>product/exgold" class="prod" g-event="Q&A_合利他命全產品_Q1_EX GOLD產品介紹">產品介紹</a>
                                                 </li>
                                                 <li><img src="<?php echo $rootURL;?>images/qa/gold_font.png" class="font"></li>
-                                                <li>末梢神經發麻</li>
+                                                <li>重度：末梢發麻</li>
                                                 <li>
                                                     <span>有效緩解</span>
                                                     <span>末梢神經發麻</span>
@@ -202,8 +202,7 @@
                                                 </li>
                                                 <li>
                                                     <span>1日3錠</span>
-                                                    <span>分3次飯後服用</span>
-                                                    <span>1次1錠</span>
+                                                    <span>分2-3次飯後服用</span>
                                                 </li>
                                                 <li class="phone decription">
                                                     <div class="item">
@@ -553,64 +552,6 @@
                     <ol class="tip m-t30">
                         衛署藥製字第030689號   衛署藥輸字第025431號   衛部藥輸字第027584號   北市衛藥廣字第XXXXXXXXX號   C-APROM/TW/THI/0030 DEC 2020   本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項
                     </ol>
-
-                    <h2 class="newtitle">認識維生素B</h2>
-                    <div class="qaBox">
-                        <div class="question collapsed" data-toggle="collapse" data-target="#cq12" aria-expanded="false" aria-controls="cq12">
-                            <div class="txt">
-                                <span>Q <b>1</b></span>
-                                <p>使用B群會有過量或是成癮的疑慮嗎?</p>
-                            </div>
-                            <!-- <i class="fas fa-plus"></i> -->
-                        </div>
-                        <div class="answer collapse" id="cq12" data-parent="#qa">
-                            <div class="answerContent">
-                                <i class="fas fa-caret-right"></i>
-                                <div class="content">
-                                    <p>維生素B群為水溶性，若攝取過量會由尿液排除，故不需太擔憂攝取過量或成癮的問題。</p>
-                                    <p>即便如此，請依照武田的仿單/說明書用法服用合利他命，武田不建議任何非仿單之使用方式。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="qaBox">
-                        <div class="question collapsed" data-toggle="collapse" data-target="#cq13" aria-expanded="false" aria-controls="cq13">
-                            <div class="txt">
-                                <span>Q <b>2</b></span>
-                                <p>活性B群跟非活性B群有什麼不同?</p>
-                            </div>
-                            <!-- <i class="fas fa-plus"></i> -->
-                        </div>
-                        <div class="answer collapse" id="cq13" data-parent="#qa">
-                            <div class="answerContent">
-                                <i class="fas fa-caret-right"></i>
-                                <div class="content">
-                                    <p>活性維生素 B<b class="f-s-em8">6</b> 為 pyridoxal phosphate hydrate、B<b class="f-s-em8">12</b> 為 methylcobalamin，而非活性之維生素 B<b class="f-s-em8">6</b> 與 B<b class="f-s-em8">12</b> 則為 pyridoxine 與 cobalamin。</p>
-                                    <p>活性維生素 B<b class="f-s-em8">6</b> , B<b class="f-s-em8">12</b> 能較快進入細胞發揮作用，改善及維持神經系統 (含末梢神經系統) 的健康。(當非活性維生素 B<b class="f-s-em8">6</b> , B<b class="f-s-em8">12</b> 進入人體後，需要時間進行生物轉化成活性態)</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="qaBox">
-                        <div class="question collapsed" data-toggle="collapse" data-target="#cq14" aria-expanded="false" aria-controls="cq14">
-                            <div class="txt">
-                                <span>Q <b>3</b></span>
-                                <p>維生素B<b class="f-s-em8">1</b>是否能增強免疫力?</p>
-                            </div>
-                            <!-- <i class="fas fa-plus"></i> -->
-                        </div>
-                        <div class="answer collapse" id="cq14" data-parent="#qa">
-                            <div class="answerContent">
-                                <i class="fas fa-caret-right"></i>
-                                <div class="content">
-                                    <p>人體內的免疫細胞，大部分集中在腸道裡的「培氏斑塊（Peyer’s patch）」內，若體內的維生素B<b class="f-s-em8">1</b>不足，會讓培氏斑塊縮小，免疫細胞數量減少的同時連帶讓免疫力下降。維持體內維生素B<b class="f-s-em8">1</b>充足，免疫細胞就能維持一定的數量，同時也能增加免疫力。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div> 
 
                 <div class="accordion" id="qa" v-if="kind=='a25'">

@@ -73,7 +73,7 @@
         <section class="s2" g-page="alinamain_main">
             <div class="content flex-c-c m-col">
                 <a href="cause" g-event="主頁_下左_疲酸麻的原因">
-                    <dl class="cause_motion">
+                    <dl>
                         <dt>
                             <p>你的疲。酸。麻<br>來自不同程度維生素缺乏</p>
                         </dt>
