@@ -301,6 +301,27 @@ nav > a.nav-home,.menu-home{
       cursor: pointer;
 }
 
+.btn_FloatLink{
+  position: fixed;
+  width: 76px;
+  height: 260px;
+  background: url(../images/a25/btn_FloatLink.png);
+  background-position: 0 0;
+  right: 0;
+  bottom: 310px;
+  z-index: 9;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  -webkit-transition: opacity .3s ease-out;
+      transition: opacity .3s ease-out;
+      cursor: pointer;
+}
+
+.btn_FloatLink:hover{
+  background-position: 0 -260px ;
+}
+
 .menu-list{
 
 }
