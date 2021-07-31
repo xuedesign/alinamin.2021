@@ -2,7 +2,7 @@
 .title{
 	text-align: center;
 	margin-top: 30px;
-    /* margin-bottom: 15px; */
+    margin-bottom: 80px
 }
 .title2{
 	text-align: center;
@@ -12,87 +12,6 @@
 
 .blogBox {
 	padding: 50px 0;
-}
-
-section .blogList{
-	display: block;
-	width: 90%;
-	margin: 0 auto;
-	max-width: 1280px;
-}
-
-section .blogList li{
-	display: flex;
-	width: 100%;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	margin-bottom: 70px;
-}
-
-section .blogList .listPic{
-	display: block;
-	width: 40%;
-	overflow: hidden;
-}
-
-section .blogList .listPic img{
-	display: block;
-	width: 100%;
-	height: auto;
-	border-radius: 20px;
-}
-
-section .blogList .listText{
-	display: block;
-	width: 56%;
-	background-color: #fff;
-}
-
-section .listText h4{
-	display: block;
-	background:#df0615;
-	color: #fff;
-	font-size:26px;
-	font-weight: 500;
-	line-height: 36px;
-	letter-spacing: 1px;
-	padding: 10px 20px;
-}
-
-section .blogList p{
-	padding: 30px 20px;
-	font-size:18px;
-	line-height:30px;
-	text-align: justify
-}
-
-section .blogList a,
-section .blogList a:visited{
-	float: right;
-	padding: 20px 30px 0 0 ;
-	color: #837979;
-	-webkit-transition: all 0.5s ease 0s;
-    -moz-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
-}
-
-section .blogList a:hover{
-	color:#df0615;
-	padding: 20px 20px 0 0 ;
-}
-
-section .blogList a::after{
-	content:"⟶";
-	padding-left: 8px;
-	color: #837979;
-	-webkit-transition: all 0.5s ease 0s;
-    -moz-transition: all 0.5s ease 0s;
-    transition: all 0.5s ease 0s;
-	clear: both;
-}
-
-section .blogList a:hover::after{
-	color:#df0615;
 }
 
 .blogList-title{
@@ -145,11 +64,11 @@ section .content{
 	padding: 40px 0 50px 0;
 }
 
-/*.blogBox .container{
+/* .blogBox .container{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-}*/
+} */
 
 .blogBox .container h4{
 	font-size:28px;
@@ -178,10 +97,10 @@ section .content{
 .blogBox .container > div{
 	margin: 0 40px;
 	display: inline-block;
-/*	display: flex;
+	/* display: flex;
 	justify-content: flex-end;
 	align-items: center;
-	flex-direction: column;*/
+	flex-direction: column; */
 	cursor: pointer;
 	position: relative;
 	width: 205px;
@@ -222,25 +141,82 @@ section .content{
 }
 
 
-h3{
-	font-size: 28px;
-	color: #df0615;
-	font-weight: 500;
-	line-height: 36px;
-	border-bottom: 2px solid #df0615;
-	position: relative;
+#box_type{
+	display: block;
+	width: 60%;
+	margin: 0 auto}
+.wrapbox{
+    display: block;
+    width:100%;
+    border-bottom: 1px solid #9F9F9F;
+	text-align: left;
+    margin: 15px auto 30px auto}
+
+input {display: none}
+label {
+    display: flex;
+    width: 100%;
+    cursor: pointer;
+	user-select: none}
+label div:first-child {
+    width: 100%;
+    font-Size:30px;
+    font-weight: bold;
+    line-height: 35px;
+    color: #111;
+    margin-left: 10px;
+    padding-top: 15px;
+    letter-spacing: 1px}
+label div:first-child > h4::before{
+    content:url(../images/blogs/icon_med.svg);
+    margin: 0 20px 0 0}
+.cross{
+    margin-right:15px;
+    margin-top:3px;
+    padding-top: 15px}
+.cross:before,.cross:after {
+    content: '';
+    border-top: 2px solid #3E474F;
+    width: 15px;
+    display: block;
+    margin-top: 18px;
+    transition: 0.3s}
+.cross:after {
+    transform: rotate(90deg);
+    margin-top: -2px}
+input:checked ~ label .cross:before {
+	transform: rotate(180deg)}
+input:checked ~ label .cross:after {
+	transform: rotate(0deg)}
+
+.box-content {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+	box-sizing: border-box;
+    margin: 10px;
+	padding: 0 50px;
+	max-height: 0;
+    overflow: hidden;
+    transition: max-height, 0s;}
+
+input:checked ~ .box-content {
+    max-height: 1500px;
+    transition: max-height, 1s}
+
+.blog-item{
+	display:block;
+	width: 28%;
+	min-height: 300px;
+	border: 1px solid #e1e1e1;
+	border-radius: 15px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+	margin: 20px 0
 }
-h3::after{
-	content: "";
-	position: absolute;
-	width: 0; 
-	height: 0; 
-	right: 0;
-	bottom: -6px;
-	border-top: 6px solid transparent;
-	border-bottom: 6px solid transparent; 
-	border-right:9px solid #df0615; 
-}
+.blog-hidden{visibility:hidden}
+
+
 
 @media (max-width:1400px){
 	section .blogList{
@@ -284,12 +260,15 @@ h3::after{
 	.blogList-title h5{
 		left: 38%;
 	}
+
+	.title .pc{ width:80%}
 }
 
 @media screen and (max-width:800px){
-	.title{
-		margin-bottom: 50px;
-	}
+	.title{ margin-bottom: 50px}
+
+	.title .mb{ width:80%}
+
 	section .content{
 		width: calc(100% - 60px);
 	}
@@ -302,50 +281,18 @@ h3::after{
 		line-height: 48px;
 		padding: 10px 0;
 	} */
-	.blogBox .container{
-		display: flex;
-		justify-content: center;
-		flex-direction: column;
-	}
+	#box_type{ width: 90%;}
+	.box-content{
+		/* justify-content: center;
+		flex-direction: column */
+		padding: 0 15px;}
+	.blog-item{
+		width: 45%}
+	.blog-hidden{
+		display:none}
 	.content > .body{
-		padding: 50px 0 0 0;
-	}
-	
-	section .blogList{
-		width: 80%
-	}
-	section .blogList li{
-		display: block
-	}
-
-	section .blogList .listPic{
-		width: 100%;
-		margin-bottom: 20px;
-	}
-
-	section .blogList .listText{
-		width: 100%;
-		padding-bottom: 65px;
-	}
-
-	section .listText h4{
-		font-size:22px;
-		line-height: 32px;
-		letter-spacing: 1px;
-		padding: 10px 20px;
-	}
-
-	section .blogList a,
-	section .blogList a:visited{
-		padding: 20px 30px 0 0 
-	}
-	
-	section .blogList a:hover{
-		padding: 20px 20px 0 0 ;
-	}
+		padding: 50px 0 0 0}
 
 	.blogList-title h5{
-		left: 28%;
-	}
-
+		left: 28%}
 }
