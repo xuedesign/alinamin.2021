@@ -269,8 +269,8 @@ input:checked ~ .box-content {
 	letter-spacing: 2px;
 }
 sub{
-	padding: 0 2px;
-	color: #f34545;
+	padding: 0 1px;
+	/* color: #f34545; */
 }
 #page-note p{
 	font-size:15px;
