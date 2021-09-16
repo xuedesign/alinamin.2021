@@ -268,7 +268,23 @@ input:checked ~ .box-content {
 	text-align:center;
 	letter-spacing: 2px;
 }
-
+sub{
+	padding: 0 2px;
+	color: #f34545;
+}
+#page-note p{
+	font-size:15px;
+	color: #7c7c7c;
+	text-align: left;
+}
+#page-note a,
+#page-note a:visited{
+	text-decoration: underline;
+}
+#page-note a:hover{
+	color: #e6280f;
+	text-decoration: underline;
+}
 
 
 @media (max-width:1450px){
