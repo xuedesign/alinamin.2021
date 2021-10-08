@@ -7,6 +7,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="content flex-b-c">
         <a href="<?php echo $rootURL;?>." class="logo" g-event="Nav_takeda台灣武田Logo"></a>
         <nav>
+            <a href="blogs.html">容易維生素B1缺乏的族群</a>
             <a <?php echo ($page=="cause")?'class="current"':'';?> href="<?php echo $rootURL;?>cause" g-event="Nav_疲酸麻的原因">你的疲。酸。麻原因</a>
             <a <?php echo ($page=="fursultiamine")?'class="current"':'';?> href="<?php echo $rootURL;?>fursultiamine" g-event="Nav_醫療級B1 TTFD">合利他命醫療級B群</a>
             <a <?php echo ($page=="lineup")?'class="current"':'';?> href="<?php echo $rootURL;?>lineup" g-event="Nav_全產品列表">全產品列表</a>
@@ -36,6 +37,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="menu-wrap">
     <div class="menuBox">
+        <a href="blogs.html">維生素B1缺乏的族群</a>
         <a href="<?php echo $rootURL;?>cause"  g-event="Nav_疲酸麻的原因">你的疲。酸。麻原因</a>
         <a href="<?php echo $rootURL;?>fursultiamine"  g-event="Nav_Nav_醫療級B1 TTFD">合利他命醫療級B群</a>
         <a href="<?php echo $rootURL;?>lineup"  g-event="Nav_全產品列表">全產品列表</a>
