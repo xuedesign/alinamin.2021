@@ -32,7 +32,6 @@
                 <img src="<?php echo $rootURL;?>images/series/m_title2.png" alt="" class="mb">
             </h1>
             
-            <!-- <h2><a class="subtitle" href="<?php echo $rootURL;?>cause">緩解因Ｂ群不足所引起的疲、酸、麻</a></h2> -->
             <h2 class="subtitle">
                 <a href="<?php echo $rootURL;?>cause?utm_source=lineupbutton&utm_medium=insite&utm_campaign=insite">緩解因B群不足所引起的疲、酸、麻</a>
                 <span class="finger"></span>
