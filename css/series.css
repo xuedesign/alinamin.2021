@@ -330,6 +330,7 @@ section{
 	display: flex;
 	justify-content: center;
 	align-items: flex-start;
+	flex-wrap: wrap;/*強迫斷行*/
 }
 .result-pro{
 	width: 45.59%;
@@ -339,6 +340,13 @@ section{
 .result-proinfo{
 	width: calc(100% - 45.59%);
 	margin-top: 10px;
+}
+
+.result-newone{
+	width: 100%;
+	min-height: 200px;
+	padding: 0 40px 40px 40px;
+	background:rgb(196, 65, 65)
 }
 
 .result-proinfo h3{
