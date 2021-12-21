@@ -25,7 +25,7 @@
         <div class="sideMenu pc">
             <ul>
                 <a href="#" scroll-to=".kv"><li>產品特色</li></a>
-                <a href="#" scroll-to=".tv"><li>電視廣告</li></a>
+                <!-- <a href="#" scroll-to=".tv"><li>電視廣告</li></a> -->
                 <a href="#" scroll-to=".ingredients"><li>內含成分<br>適用症狀</li></a>
                 <a href="#" scroll-to=".path"><li>購買通路</li></a>
             </ul>
@@ -78,7 +78,7 @@
                 </div>
             </div>
         </section>
-        <section class="tv" g-page="Product_A25_TVC">
+        <!-- <section class="tv" g-page="Product_A25_TVC">
             <div class="container">
                 <div class="title">電視廣告</div>
                 <div class="tvBox" >
@@ -87,11 +87,11 @@
                         <div class="tvTitle">一吃有感<span>迅速消除疲勞</span></div>
                     </div>
                     <div id="youtubePlay" class="youtube">
-                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/g-WyJqnQOrY" autoplay="1" frameborder="0" allowfullscreen data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300"></iframe> -->
+                        <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/g-WyJqnQOrY" autoplay="1" frameborder="0" allowfullscreen data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300"></iframe>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <section class="ingredients" g-page="Product_A25_ingredient">
             <div class="container">
                 <div class="title">內含成分</div>
