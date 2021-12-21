@@ -417,8 +417,8 @@ sub{
 	.main_FloatDown{ width: 80%;}
 	.link-01_FloatDown,
 	.link-02_FloatDown{
-		width: 220px;
-		height: 67px;
+		width: 210px;
+		height: 64px;
 		margin: 0 10px
 	}
 }
