@@ -131,6 +131,16 @@
 
         <div class="top-btn"></div>
 
+        <div class="btn_FloatDown">
+            <div class="main_FloatDown">
+                <p>認識更多維生素B1</p>
+                <div class="link_FloatDown">
+                    <a class="link-01_FloatDown" href="cause">B1不足的症狀</a>
+                    <a class="link-02_FloatDown" href="fursultiamine">B1不足怎麼辦</a>
+                </div>
+            </div>
+        </div>
+
         <section class="blogBox">
             <div class="content" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="400">
                 <div class="head">
@@ -284,5 +294,8 @@
         <script type="text/javascript" src="https://alinamin.com.tw/scripts/index.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
         <script>AOS.init();</script>
+        <script>
+            $(window).scroll(function(){$(window).scrollTop()+$(window).height()>$(document).height()-2e3?$(".btn_FloatDown").fadeIn(1e3):$(".btn_FloatDown").fadeOut(1e3)});
+        </script>
 </body>
 </html>

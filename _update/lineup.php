@@ -233,6 +233,15 @@
                                     前往愛A25
                                 </a>
                             </div>
+                            <div class="result-newone">
+                                <div class="main_FloatDown">
+                                    <p>認識更多維生素B1</p>
+                                    <div class="link_FloatDown">
+                                        <a class="link-01_FloatDown" href="cause">B1不足的症狀</a>
+                                        <a class="link-02_FloatDown" href="fursultiamine">B1不足怎麼辦</a>
+                                    </div>
+                                </div>
+                            </div>
                          </div>
                          <div style="display: none;">
                             <div class="result-pro">
@@ -259,6 +268,15 @@
                                 <a href="<?php echo $rootURL;?>product/explus" class="link-btn" g-event="5秒快速選擇_檢測結果_EX PLUS">
                                     前往EX PLUS強效錠
                                 </a>
+                            </div>
+                            <div class="result-newone">
+                                <div class="main_FloatDown">
+                                    <p>認識更多維生素B1</p>
+                                    <div class="link_FloatDown">
+                                        <a class="link-01_FloatDown" href="cause">B1不足的症狀</a>
+                                        <a class="link-02_FloatDown" href="fursultiamine">B1不足怎麼辦</a>
+                                    </div>
+                                </div>
                             </div>
                          </div>
                          <div style="display: none;">
@@ -287,6 +305,15 @@
                                 <a href="<?php echo $rootURL;?>product/exgold" class="link-btn" g-event="5秒快速選擇_檢測結果_EX GOLD">
                                     前往EX GOLD金強效錠
                                 </a>
+                            </div>
+                            <div class="result-newone">
+                                <div class="main_FloatDown">
+                                    <p>認識更多維生素B1</p>
+                                    <div class="link_FloatDown">
+                                        <a class="link-01_FloatDown" href="cause">B1不足的症狀</a>
+                                        <a class="link-02_FloatDown" href="fursultiamine">B1不足怎麼辦</a>
+                                    </div>
+                                </div>
                             </div>
                          </div>
                      </div>

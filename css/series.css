@@ -342,11 +342,64 @@ section{
 	margin-top: 10px;
 }
 
+/*新增底部浮動選單 #202112*/
 .result-newone{
+	display: block;
 	width: 100%;
-	min-height: 200px;
-	padding: 0 40px 40px 40px;
-	background:rgb(196, 65, 65)
+	padding: 0;
+}
+.main_FloatDown{
+	display: block;
+	width: 80%;
+	background: rgba(216, 216, 218, .8);
+	margin: 0 auto;
+	padding: 15px;
+	border-radius:20px
+}
+.main_FloatDown p{
+	display: inline-block;
+	font-size:16px;
+	color:#fff;
+	background:rgba(175, 176, 179, .8);
+	padding: 5px 8px;
+	border-radius: 20px;
+}
+.link_FloatDown{
+	display: block;
+	width:fit-content;
+	margin: 15px auto;
+}
+.link-01_FloatDown,
+.link-02_FloatDown{
+	display: inline-block;
+	width: 300px;
+	height: 92px;
+	margin: 0 10px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	transition-duration: .05s
+}
+.link-01_FloatDown{
+	background: url(../images/blogs/btn_flatdown-01.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.link-02_FloatDown{
+	background: url(../images/blogs/btn_flatdown-02.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.link-01_FloatDown:hover{
+	background: url(../images/blogs/btn_flatdown-01-h.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.link-02_FloatDown:hover{
+	background: url(../images/blogs/btn_flatdown-02-h.png);
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 
 .result-proinfo h3{
@@ -401,6 +454,9 @@ section{
 	width: 100%;
 }
 
+@media (max-width:1450px){
+	.main_FloatDown{ width: 90%;}
+}
 
 @media screen and (max-width:1300px){
 	.series .title{
@@ -552,6 +608,14 @@ section{
 		text-align: center;
 		margin-top: 2em;
 	}
+
+	.main_FloatDown{ width: 90%;}
+	.link-01_FloatDown,
+	.link-02_FloatDown{
+		width: 210px;
+		height: 64px;
+		margin: 0 10px
+	}
 }
 
 @media screen and (max-width:600px){
@@ -562,4 +626,10 @@ section{
 	font-size: 1.5em;
 	line-height: 1.8em;
 	}
+.link-01_FloatDown,
+.link-02_FloatDown{
+	width: 180px;
+	height: 55px;
+	margin: 0 10px
+}
 }
