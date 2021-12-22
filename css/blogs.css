@@ -422,4 +422,14 @@ sub{
 		height: 64px;
 		margin: 0 10px
 	}
+	.link-01_FloatDown:hover{
+		background: url(../images/blogs/btn_flatdown-01.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.link-02_FloatDown:hover{
+		background: url(../images/blogs/btn_flatdown-02.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
 }
