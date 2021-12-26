@@ -102,17 +102,19 @@
 }
 
 .s2 .content{
+    position: relative;
 	width: 100%;
 	max-width: 1240px;
 	margin:0 auto;
-	position: relative;
+	border: 1px solid #e1e1e1;
+    min-height:200px;
 }
-.s2 .content a{
+/* .s2 .content a{
 	margin: 0 1.7%;
 	display: block;
 	width: calc(100% / 3 - 3.4%);
 	max-width: 385px;
-}
+} */
 
 
 .s2 dl{
@@ -315,11 +317,11 @@
 		padding-bottom: 1em;
 		padding-right: 0px;
 	}
-	.s2 .content a{
+	/* .s2 .content a{
 		width: calc(100%);
 		max-width: 100%;
 		margin-bottom: 30px;
-	}
+	} */
 
 }
 
