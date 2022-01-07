@@ -187,7 +187,7 @@ h3::after{
 	width: 100%;
 	right: 0;
 	bottom: 0;
-	z-index: 9;
+	z-index: 999;
 }
 .main_FloatDown{
 	display: block;
