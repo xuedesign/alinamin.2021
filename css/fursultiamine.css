@@ -180,7 +180,77 @@ h3::after{
 	padding-right: 4em;
 }
 
+/*新增底部浮動選單 #202112*/
+.btn_FloatDown{
+	display: none;
+	position: fixed;
+	width: 100%;
+	right: 0;
+	bottom: 0;
+	z-index: 9;
+}
+.main_FloatDown{
+	display: block;
+	width: 40%;
+	background: rgba(216, 216, 218, .8);
+	margin: 0 auto;
+	padding: 15px;
+	border-radius:20px
+}
+.main_FloatDown p{
+	display: inline-block;
+	font-size:16px;
+	color:#fff;
+	background:rgba(175, 176, 179, .8);
+	padding: 5px 8px;
+	border-radius: 20px;
+}
+.link_FloatDown{
+	display: block;
+	width:fit-content;
+	margin: 15px auto;
+}
+.link-01_FloatDown,
+.link-02_FloatDown{
+	display: inline-block;
+	width: 300px;
+	height: 92px;
+	margin: 0 10px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	transition-duration: .1s
+}
 
+.link-01_FloatDown{
+	background: url(../images/blogs/btn_flatdown-01.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.link-02_FloatDown{
+	background: url(../images/blogs/btn_flatdown-02.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.link-01_FloatDown:hover{
+	background: url(../images/blogs/btn_flatdown-01-h.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.link-02_FloatDown:hover{
+	background: url(../images/blogs/btn_flatdown-02-h.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+@media (max-width:1450px){
+	.main_FloatDown{ width: 60%;}
+}
+
+@media (max-width:1110px){
+	.main_FloatDown{ width: 70%;}
+}
 
 @media screen and (max-width:800px){
 	section .content{
@@ -260,5 +330,23 @@ h3::after{
 	}
 	.s-p{
 		padding-right: 0;
+	}
+
+	.main_FloatDown{ width: 85%;}
+	.link-01_FloatDown,
+	.link-02_FloatDown{
+		width: 210px;
+		height: 64px;
+		margin: 0 10px
+	}
+	.link-01_FloatDown:hover{
+		background: url(../images/blogs/btn_flatdown-01.png);
+		background-size: contain;
+		background-repeat: no-repeat;
+	}
+	.link-02_FloatDown:hover{
+		background: url(../images/blogs/btn_flatdown-02.png);
+		background-size: contain;
+		background-repeat: no-repeat;
 	}
 }
