@@ -244,11 +244,11 @@ h3::after{
 	background-repeat: no-repeat;
 }
 
-@media (max-width:1450px){
+@media (max-width:1701px){
 	.main_FloatDown{ width: 60%;}
 }
 
-@media (max-width:1110px){
+@media (max-width:1140px){
 	.main_FloatDown{ width: 70%;}
 }
 
