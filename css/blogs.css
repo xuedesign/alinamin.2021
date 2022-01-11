@@ -297,7 +297,7 @@ sub{
 }
 .main_FloatDown{
 	display: block;
-	width: 40%;
+	width: 30%;
 	background: rgba(216, 216, 218, .8);
 	margin: 0 auto;
 	padding: 15px;
@@ -319,8 +319,8 @@ sub{
 .link-01_FloatDown,
 .link-02_FloatDown{
 	display: inline-block;
-	width: 300px;
-	height: 92px;
+	width: 200px;
+	height: 61px;
 	margin: 0 10px;
 	text-indent: 100%;
 	white-space: nowrap;
@@ -351,7 +351,7 @@ sub{
 }
 
 @media (max-width:1701px){
-	.main_FloatDown{ width: 60%;}
+	.main_FloatDown{ width: 35%;}
 }
 @media (max-width:1450px){
 	section .blogList{
@@ -366,6 +366,7 @@ sub{
 	section .blogList a:hover{
 		padding: 0 20px 0 0 ;}
 	#box_type{ width:85%}
+	.main_FloatDown{ width: 45%;}
 }
 
 @media (max-width:1140px){
@@ -384,7 +385,10 @@ sub{
 	.title .pc{ width:80%}
 	.box-content{ padding: 0 30px;}
 	.blog-item{ width:30%}
-	.main_FloatDown{ width: 70%;}
+	.main_FloatDown{ width: 45%;}
+}
+@media (max-width:1080px){
+	.main_FloatDown{ width: 50%;}
 }
 
 @media screen and (max-width:800px){
