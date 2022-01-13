@@ -14,12 +14,22 @@
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="維生素B1誘導體有效緩解疲。酸。麻症狀">
     <meta property="og:url" content="<?php echo $rootURL;?>fursultiamine">
-    <link rel="stylesheet" href="<?php echo $rootURL;?>css/fursultiamine.css">  
+    <link rel="stylesheet" href="css/fursultiamine.css">  
 </head>
 
 <body>
     <div id="app" class="wrap">
         <?php require('nav.php'); ?>
+
+        <div class="btn_FloatDown">
+            <div class="main_FloatDown">
+                <p>認識更多維生素B1</p>
+                <div class="link_FloatDown">
+                    <a class="link-01_FloatDown" href="cause?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足的症狀</a>
+                    <a class="link-02_FloatDown" href="fursultiamine?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足怎麼辦</a>
+                </div>
+            </div>
+        </div>
         
         <section class="fursultiamine">
             <div class="title" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
@@ -126,8 +136,9 @@
         <script type="text/javascript" src="<?php echo $rootURL;?>scripts/global.js?t=0201"></script>
         <script type="text/javascript" src="<?php echo $rootURL;?>scripts/index.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
         <script>
-            AOS.init();
+            $(window).scroll(function(){$(window).scrollTop()+$(window).height()>$(document).height()-800?$(".btn_FloatDown").fadeIn(1e3):$(".btn_FloatDown").fadeOut(1e3)});
         </script>
 </body>
 

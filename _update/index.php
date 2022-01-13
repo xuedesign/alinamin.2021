@@ -14,7 +14,7 @@
     <meta property="og:title" content="合利他命 - 醫療級維他命B群專家">
     <meta property="og:description" content="含活性維生素B1誘導體，有效緩解缺乏維生素B1，產生的疲。酸。麻症狀問題">
     <meta property="og:url" content="<?php echo $rootURL;?>">
-    <link rel="stylesheet" href="<?php echo $rootURL;?>css/index.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
@@ -70,43 +70,61 @@
                 </div>
             </div>
         </section>
+
         <section class="s2" g-page="alinamain_main">
             <div class="content flex-c-c m-col">
-                <a href="cause" g-event="主頁_下左_疲酸麻的原因">
-                    <dl class="cause_motion">
-                        <dt>
-                            <p>你的疲。酸。麻<br>來自不同程度維生素缺乏</p>
-                        </dt>
-                        <dd>其中維生素B<b class="f-s-em8">1</b>缺乏隨時間累積<br>
-                            產生疲。酸。麻不同程度症狀
-                            <i>more</i>
-                        </dd>
-                    </dl>
-                </a>
-                <a href="fursultiamine" g-event="主頁_下中_醫療級B1 TTFD">
-                <dl>
-                    <dt>
-                        <p>合利他命醫療級B群<br>有效解決不同程度維生素B<b class="f-s-em8">1</b>缺乏</p>
-                    </dt>
-                    <dd>活性維生素B<b class="f-s-em8">1</b>誘導體Fursultiamine<br>
-                        有效緩解疲。酸。麻症狀
-                        <i>more</i>
-                    </dd>
-                </dl>
-                </a>
-                <a href="lineup" g-event="主頁_下右_快速選擇合利他命">
-                <dl>
-                    <dt><p>快速選擇合利他命</p></dt>
-                    <dd>根據不同程度維生素B<b class="f-s-em8">1</b>缺乏<br>
-                        快速了解適合你的合利他命
-                        <i>more</i>
-                    </dd>
-                </dl>
-                </a>
+                <!--//2021-12 修改頁面內容-->
+                <div id="mainBox">
+                    <div id="mainBox-01">
+                        <div class="mainBox-head">
+                            <h3><a href="cause" title="你的疲。酸。麻原因">維生素B1是能量轉換關鍵，<br>一旦缺乏，疲、酸、麻就會接著來</a></h3>
+                        </div>
+                        <picture>
+                            <source srcset="images/intro/pic_mainBox-01.png" media="(min-width: 1000px)">
+                            <source srcset="images/intro/pic_mainBox-l01.png" media="(min-width: 700px)">
+                            <source srcset="images/intro/pic_mainBox-m01.png" media="(min-width: 320px)">
+                            <img src="images/intro/pic_mainBox-01.png" alt="細胞能量不足，讓你疲、酸、麻上身">
+                        </picture>
+                        <figcaption class="myHidden">細胞能量不足，讓你疲、酸、麻上身。</figcaption>
+                    </div>
+                    <div id="mainBox-02">
+                        <div class="mainBox-head">
+                            <h3>合利他命醫療級B群</h3>
+                            <h4>緩解B1不足造成的疲、酸、麻</h4>
+                        </div>
+                        <div class="mainBox-body">
+                            <div class="mainBox-item">
+                                <a href="a25" title="合利他命愛A25">
+                                <h5>一吃有感<br>迅速消除疲勞</h5>
+                                <img class="item-product" src="https://alinamin.com.tw/images/series/pro1.png" alt="合利他命愛A25">
+                                <img class="item-name" src="https://alinamin.com.tw/images/series/series_pro1_name.png" alt="*">
+                                </a>
+                            </div>
+                            <div class="mainBox-item">
+                                <a href="explus" title="合利他命EX PLUS強效錠">
+                                <h5>改善眼睛疲勞/<br>肩頸僵硬/腰背酸痛</h5>
+                                <img class="item-product" src="https://alinamin.com.tw/images/series/pro2.png" alt="合利他命EX PLUS強效錠">
+                                <img class="item-name" src="https://alinamin.com.tw/images/series/series_pro2_name.png" alt="*"/>
+                                </a>
+                            </div>
+                            <div class="mainBox-item">
+                                <a href="exgold" title="合利他命EX GOLD金強效錠">
+                                <h5>有效緩解<br>末梢發麻/神經痛</h5>
+                                <img class="item-product" src="https://alinamin.com.tw/images/series/pro3.png" alt="合利他命EX GOLD金強效錠">
+                                <img class="item-name" src="https://alinamin.com.tw/images/series/series_pro3_name.png" alt="*">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 
             </div>
-            <ol class="tip m-t30">衛署藥製字第030689號 衛署藥輸字第025431號 衛部藥輸字第027584號<br class="mb"> 北市衛藥廣字第110010063號 C-APROM/TW/THI/0030 DEC 2020 <br class="mb"> 本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</ol>
+
+            <ol class="tip m-t30">衛署藥製字第030689號 衛署藥輸字第025431號 衛部藥輸字第027584號<br> 北市衛藥廣字第111010069號
+                C-APROM/TW/THI/0030 DEC 2020 <br> 本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</ol>
+            <!--<br class="mb">原本的斷行-->
         </section>
+
         <?php require('footer.php'); ?>
         <script src="<?php echo $rootURL;?>scripts/jquery-3.4.1.min.js"></script>
         <script type="text/javascript" src="<?php echo $rootURL;?>scripts/global.js?t=0201"></script>

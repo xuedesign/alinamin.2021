@@ -8,14 +8,14 @@
 <head>
     <?php require_once('header.php'); ?>
     <!-- css start-->
-    <title>全系列產品</title>
-    <meta name="title" content="全系列產品" />
+    <title>合利他命全系列產品</title>
+    <meta name="title" content="合利他命全系列產品" />
     <meta name="description" content="根據身體出現的疲勞累積症狀，快速了解適合你的合利他命" />
     <meta name="keywords" content="台灣武田，合利他命，醫療級B群，A25，強效錠，金強效錠，Alinamin，疲勞無力，眼睛疲勞，肩頸僵硬，腰背酸痛，手腳發麻，嚴重酸痛，神經痛，日本市佔第一" />
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="根據身體出現的疲勞累積症狀，快速了解適合你的合利他命">
     <meta property="og:url" content="<?php echo $rootURL;?>lineup">
-    <link rel="stylesheet" href="<?php echo $rootURL;?>css/series.css">
+    <link rel="stylesheet" href="css/series.css">
 </head>
 
 <body>
@@ -237,8 +237,8 @@
                                 <div class="main_FloatDown">
                                     <p>認識更多維生素B1</p>
                                     <div class="link_FloatDown">
-                                        <a class="link-01_FloatDown" href="cause">B1不足的症狀</a>
-                                        <a class="link-02_FloatDown" href="fursultiamine">B1不足怎麼辦</a>
+                                        <a class="link-01_FloatDown" href="cause?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足的症狀</a>
+                                        <a class="link-02_FloatDown" href="fursultiamine?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足怎麼辦</a>
                                     </div>
                                 </div>
                             </div>
@@ -273,8 +273,8 @@
                                 <div class="main_FloatDown">
                                     <p>認識更多維生素B1</p>
                                     <div class="link_FloatDown">
-                                        <a class="link-01_FloatDown" href="cause">B1不足的症狀</a>
-                                        <a class="link-02_FloatDown" href="fursultiamine">B1不足怎麼辦</a>
+                                        <a class="link-01_FloatDown" href="cause?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足的症狀</a>
+                                        <a class="link-02_FloatDown" href="fursultiamine?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足怎麼辦</a>
                                     </div>
                                 </div>
                             </div>
@@ -310,8 +310,8 @@
                                 <div class="main_FloatDown">
                                     <p>認識更多維生素B1</p>
                                     <div class="link_FloatDown">
-                                        <a class="link-01_FloatDown" href="cause">B1不足的症狀</a>
-                                        <a class="link-02_FloatDown" href="fursultiamine">B1不足怎麼辦</a>
+                                        <a class="link-01_FloatDown" href="cause?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足的症狀</a>
+                                        <a class="link-02_FloatDown" href="fursultiamine?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足怎麼辦</a>
                                     </div>
                                 </div>
                             </div>

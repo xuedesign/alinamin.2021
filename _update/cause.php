@@ -15,7 +15,7 @@
     <meta property="og:description" content="你的疲。酸。麻原因，來自不同程度維生素B1缺乏，導致細胞能量不足及神經傳導出現問題，產生疲勞酸痛、僵硬、末梢發麻等不適症狀">
     <meta property="og:url" content="<?php echo $rootURL;?>cause">
 
-    <link rel="stylesheet" href="<?php echo $rootURL;?>css/cause.css?t=0519">
+    <link rel="stylesheet" href="css/cause.css">
         <!-- Lightning Bolt Begins -->
     <script type="text/javascript" id="lightning_bolt" src="//cdn-akamai.mookie1.com/LB/LightningBolt.js"></script>
     <!-- Lightning Bolt Ends -->
@@ -25,7 +25,16 @@
     <script type="application/javascript">(function(w,d,t,r,u){w[u]=w[u]||[];w[u].push({'projectId':'10000','properties':{'pixelId':'10110436'}});var s=d.createElement(t);s.src=r;s.async=true;s.onload=s.onreadystatechange=function(){var y,rs=this.readyState,c=w[u];if(rs&&rs!="complete"&&rs!="loaded"){return}try{y=YAHOO.ywa.I13N.fireBeacon;w[u]=[];w[u].push=function(p){y([p])};y(c)}catch(e){}};var scr=d.getElementsByTagName(t)[0],par=scr.parentNode;par.insertBefore(s,scr)})(window,document,"script","https://s.yimg.com/wi/ytc.js","dotq");</script>
     <div id="app" class="wrap">
         <?php require('nav.php'); ?>
-               
+        
+        <div class="btn_FloatDown">
+            <div class="main_FloatDown">
+                <p>認識更多維生素B1</p>
+                <div class="link_FloatDown">
+                    <a class="link-01_FloatDown" href="cause?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足的症狀</a>
+                    <a class="link-02_FloatDown" href="fursultiamine?utm_source=popuplink&utm_medium=popuplink&utm_campaign=popuplink">B1不足怎麼辦</a>
+                </div>
+            </div>
+        </div>
         <!--  2021 cny  -->
 
         
@@ -327,8 +336,9 @@
         <script type="text/javascript" src="<?php echo $rootURL;?>scripts/global.js?t=0201"></script>
         <script type="text/javascript" src="<?php echo $rootURL;?>scripts/cause.js?t=0201"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
         <script>
-            AOS.init();
+            $(window).scroll(function(){$(window).scrollTop()+$(window).height()>$(document).height()-800?$(".btn_FloatDown").fadeIn(1e3):$(".btn_FloatDown").fadeOut(1e3)});
         </script>
 </body>
 
