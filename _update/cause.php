@@ -118,8 +118,10 @@
                                     <ul class="chat-u2">
                                         <li>#疲勞</li>
                                         <li>#無力</li>
+                                        <li style="visibility:hidden;">&nbsp;</li>
                                     </ul>
                                 </div>
+                                <div></div>
                             </div>
 
                             <div>
