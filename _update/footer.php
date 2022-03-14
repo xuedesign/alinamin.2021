@@ -3,8 +3,8 @@
             <div class="logo"></div>
             <div class="flex-b-s m-t18">
                 <div>
-                    <p>本網站係台灣武田藥品工業股份有限公司所擁有，其內容之著作權亦屬於台灣武田藥品工業股份有限公司，非經同意不得轉載。</p>
-                    <p>Copyright©Takeda Pharmaceutical Taiwan Ltd. <br class="mb">2020台灣武田藥品工業股份有限公司版權所有</p>
+                    <p>本網站係合利他命藥品股份有限公司所擁有，其內容之著作權亦屬於合利他命藥品股份有限公司，非經同意不得轉載。</p>
+                    <p>Copyright©Takeda GmbH,production site Oranienburg <br class="mb">2022 合利他命藥品股份有限公司版權所有</p>
                 </div>
                 <div class="mm-b15">
                     <div class="txtBox m-r20">

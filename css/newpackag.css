@@ -1,0 +1,126 @@
+
+.title{
+	text-align: center;
+	margin-top: 30px;
+    margin-bottom: 80px
+}
+.title2{
+	text-align: center;
+	margin-top: 16px;
+	margin-bottom: 50px;
+}
+.title3{
+	text-align: center;
+	margin-top: 60px;
+	margin-bottom: 50px;
+}
+
+section .content{
+	width: 90%;
+	margin: 0 auto;
+	max-width: 1280px;
+	border-radius: 25px;
+	overflow: hidden;
+}
+
+
+
+.content > .head{
+	background: #87B828;
+	/* font-size: 35px;
+	font-weight: bold;
+	text-align: center;
+	color: #fff;
+	line-height: 50px; */
+	padding: 15px 0 15px 30px}
+.content > .head img{
+	display: block;
+	width: 20%;
+	height: auto
+}
+
+.content > .body{
+	background: #fff;
+	padding: 40px 0 50px 0;
+}
+
+.container{
+	margin: 0 auto;
+	max-width:880px;
+	position: relative;
+}
+
+/*新包裝介紹*/
+.newproBox{
+	padding-bottom: 50px;
+}
+#box-content{
+	display: block;
+	width: 60%;
+	margin: 15px auto;
+	font-size: 20px;
+	line-height:36px;
+	text-align: justify
+}
+.mainBox-item{
+	display: block;
+	background: #fff;
+	width: 45%;
+	margin: 45px auto 20px auto;
+	padding: 50px;
+	border-radius: 20px;
+	box-shadow: 0 1px 1px rgb(0 0 0 / 15%), 0 2px 2px rgb(0 0 0 / 15%), 0 4px 4px rgb(0 0 0 / 15%), 0 8px 8px rgb(0 0 0 / 15%);
+}
+.mainBox-item img{
+	display: block;
+	margin: 0 auto;
+}
+
+@media (max-width:1700px){
+	.mainBox-item{
+		width: 60%;
+		text-align:center
+	}
+}
+
+@media (max-width:1400px){
+	.mainBox-item{
+		width: 65%;
+		text-align:center
+	}
+}
+
+@media (max-width:1300px){
+	.mainBox-item img{
+		width: 100%;
+		height: auto;
+	}
+}
+
+
+@media (max-width:1140px){
+	.title .pc{ width:80%}
+	
+}
+
+
+@media screen and (max-width:800px){
+	.title{ margin-bottom: 50px}
+	.title .mb{ width:80%}
+	section .content{
+		width: calc(100% - 60px);
+	}
+	.content > .body{
+		padding-left: 25px;
+		padding-right: 25px;
+	}
+	#box-content{
+		width: 80%;
+	}
+	.mainBox-item{
+		width: 80%;
+		padding:15px
+	}
+	
+	
+}

@@ -101,15 +101,15 @@
                 <div class="content" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300">
                     <div class="statementContentBox flex-c-c">
                         <div class="statementContent">
-                            <img src="<?php echo $rootURL;?>images/explus/statementContent.png" alt="日本同步配方聲明書中文版" class="pc">
-                            <img src="<?php echo $rootURL;?>images/explus/statementContentM.png" alt="日本同步配方聲明書中文版" class="mb">
+                            <img src="images/explus/statementContent.png" alt="日本同步配方聲明書中文版" class="pc">
+                            <img src="images/explus/statementContentM.png" alt="日本同步配方聲明書中文版" class="mb">
                             <button class="magnifierIcon"><img src="<?php echo $rootURL;?>images/explus/magnifierIcon.png" alt=""></button>
                         </div>
                     </div>
                     <div class="statementExpendBox flex-c-c" style="display:none; ">
                         <div class="statementExpend">
-                            <img src="<?php echo $rootURL;?>images/explus/statementExpend.png" alt="日本同步配方聲明書中日文版" class="pc">
-                            <img src="<?php echo $rootURL;?>images/explus/statementExpendM.png" alt="日本同步配方聲明書中日文版" class="mb">
+                            <img src="images/explus/statementExpend.png" alt="日本同步配方聲明書中日文版" class="pc">
+                            <img src="images/explus/statementExpendM.png" alt="日本同步配方聲明書中日文版" class="mb">
                             <button class="closeBtn">
                                 <span class="closeLine"></span>
                                 <span class="closeLine"></span>

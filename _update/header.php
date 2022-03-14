@@ -16,8 +16,8 @@
     
     <meta name="apple-mobile-web-app-title" content="">
     <!-- OG -->
-    <link rel="icon" href="<?php echo $rootURL;?>images/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="<?php echo $rootURL;?>images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
     <meta property="og:site_name" content="合利他命">
     <meta content='Alinamin' name='author'>
