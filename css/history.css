@@ -157,24 +157,7 @@ svg circle:nth-child(2) {
   stroke: #df0615;
 }
 
-@media screen and (max-width:800px) {
-    .nofixed header {
-        position: fixed;
-        top: 0;
-    }
-    .nofixed .header-h2,.header-h2 {
-	    height: 80px;
-	}
-    .year{
-    	text-align: left;
-		font-size: 310px;
-		margin-left: -25px;
-		/*top: 140px;*/
-	}
-	.year-nav{
-		left:93px;
-	}
-}
+
 
 .timeline {
     display: flex;
@@ -274,36 +257,6 @@ svg circle:nth-child(2) {
 }
 .timeline-item--active .timeline__content-title {
   /*margin: -50px 0 20px 0;*/
-}
-
-
-
-
-
-@media only screen and (max-width: 767px) {
-  .timeline:before {
-    left: 93px;
-  }
-  .timeline-item {
-    align-self: baseline !important;
-    width: 100%;
-    padding: 0 30px 150px 160px;
-  }
-  .timeline-item.odd{
-		text-align: left;
-	  	justify-content: initial;
-	}
-  .timeline-item:before {
-    left: 10px !important;
-    padding: 0 !important;
-    top: 50px;
-    text-align: center !important;
-    width: 60px;
-    border: none !important;
-  }
-  .timeline-item:last-child {
-    /*padding-bottom: 40px;*/
-  }
 }
 
 .timeline-container {
@@ -417,6 +370,176 @@ svg circle:nth-child(2) {
   right: 33px;
   bottom: 20px;
 }
+
+/*2022-03 公司介紹修改*/
+#box_history {
+  display: flex;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 1260px;
+  position: relative;
+  padding: 60px 0;
+  /* border: 1px solid #ccc; */
+}
+#box_history h1{
+  font-size: 45px;
+  font-weight: 900;
+  margin: 15px 0;
+  text-align: center;
+  line-height: 1.1em;
+  letter-spacing:1px
+}
+#box_history h1 span{
+  color: #df0615;
+}
+#box_history p{
+  width: 60%;
+  font-size:18px;
+  line-height:30px;
+  margin: 0 auto 15px auto;
+}
+#box_history img{
+  display: block;
+  margin: 20px auto;
+}
+
+.titleBar{
+  display: block;
+  position: relative;
+  width: 80%;
+  margin: 30px auto;
+	font-size: 24px;
+	background-color: #eee;
+	line-height: 2em;
+	padding-left: 50px;
+	font-weight: 700;
+}
+.titleBar::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 0;
+	margin-top: 15px;
+	background-color: #df0615;
+	width: 15px;
+	height: 15px;
+	color: #df0615;
+}
+.txt_bold{
+  font-weight: bold;
+  color: #e60012;
+}
+
+.box_note{
+  display: block;
+  width: 60%;
+  font-weight: bold;
+  font-size: 25px;
+  line-height:40px;
+  color:#2c2c2c;
+  margin: 40px auto;
+  border-left:5px solid #e1e1e1;
+  padding-left:30px
+}
+.box_note span{
+  padding-left: 12px;
+}
+iframe {
+  max-width: 100%;
+}
+
+.box_film {
+  position: relative;
+  width: 600px;
+  height: 300px;
+  /* border: solid 4px #4b4b4b;
+  border-radius: 4px; */
+  margin: 20px auto;
+}
+
+.main_film {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+.main_film iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width:1100px) {
+  #box_history p{
+    width: 80%
+  }
+  .box_note{
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+}
+
+@media screen and (max-width:800px) {
+  .nofixed header {
+      position: fixed;
+      top: 0;
+  }
+  .nofixed .header-h2,.header-h2 {
+    height: 80px;
+  }
+  .year{
+    text-align: left;
+  font-size: 310px;
+  margin-left: -25px;
+  /*top: 140px;*/
+  }
+.year-nav{
+  left:93px;
+  }
+  #box_history{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 60px 0;
+    /* border: 1px solid #ccc; */
+  }
+  #box_history p{
+    width: 85%;
+  }
+  #box_history img{
+    display: block;
+    width:90%;
+    height: auto;
+    margin: 20px auto;
+  }
+  #box_history img.pic_logo{
+    width:50%
+  }
+  .box_note{
+    width: 90%;
+    font-size: 18px;
+    line-height:30px;
+    color:#2c2c2c;
+    margin: 30px auto;
+    padding-left: 20px;
+  }
+  .titleBar{
+    width: 90%;
+  }
+  .main_film iframe {
+    width: 95%;
+    height: 100%;
+    margin: 15px auto 30px auto;
+  }
+  
+}
+
 @media only screen and (max-width: 767px) {
 	.banner > div{
 		flex-direction: column;
@@ -430,4 +553,27 @@ svg circle:nth-child(2) {
 	.banner > div > div:nth-child(2){
 		margin-top: 40px;
 	}
+  .timeline:before {
+    left: 93px;
+  }
+  .timeline-item {
+    align-self: baseline !important;
+    width: 100%;
+    padding: 0 30px 150px 160px;
+  }
+  .timeline-item.odd{
+		text-align: left;
+	  	justify-content: initial;
+	}
+  .timeline-item:before {
+    left: 10px !important;
+    padding: 0 !important;
+    top: 50px;
+    text-align: center !important;
+    width: 60px;
+    border: none !important;
+  }
+  .timeline-item:last-child {
+    /*padding-bottom: 40px;*/
+  }
 }
