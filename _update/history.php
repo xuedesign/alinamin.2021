@@ -7,14 +7,14 @@
 
 <head>
     <?php require_once('header.php'); ?>
-    <title>武田歷史</title>
-    <meta name="title" content="武田歷史" />
+    <title>合力他命藥品</title>
+    <meta name="title" content="合力他命藥品" />
     <meta name="description" content="源自日本，醫療級B群百年安心品牌-合利他命" />
     <meta name="keywords" content="台灣武田，合利他命，醫療級B群，A25，強效錠，金強效錠，Alinamin，疲勞無力，眼睛疲勞，肩頸僵硬，腰背酸痛，手腳發麻，嚴重酸痛，神經痛，日本市佔第一" />
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="源自日本，醫療級B群百年安心品牌">
     <meta property="og:url" content="<?php echo $rootURL;?>product/history">
-    <link rel="stylesheet" href="<?php echo $rootURL;?>css/history.css">  
+    <link rel="stylesheet" href="css/history.css">  
 </head>
 
 <body>
@@ -25,226 +25,48 @@
         </section>
         <?php require('nav.php'); ?>
 
-        <section class="history" id="timeline">
-            <div class="year">1781</div>
-            <div class="year hide"></div>
-            <div class="year-nav">
-                <ul>
-                    <li class="active">
-                        <span class="year-txt">1781-1914</span>
-                        <div class="circle">
-                            <svg>
-                                <circle cx="26" cy="26" r="23"></circle>
-                                <circle cx="26" cy="26" r="23"></circle>
-                            </svg>
-                        </div>
-                    </li>
-                    <li>
-                        <span class="year-txt">1915-1949</span>
-                        <div class="circle">
-                            <svg>
-                                <circle cx="26" cy="26" r="23"></circle>
-                                <circle cx="26" cy="26" r="23"></circle>
-                            </svg>
-                        </div>
-                    </li>
-                    <li>
-                        <span class="year-txt">1950-1969</span>
-                        <div class="circle">
-                            <svg>
-                                <circle cx="26" cy="26" r="23"></circle>
-                                <circle cx="26" cy="26" r="23"></circle>
-                            </svg>
-                        </div>
-                    </li>
-                    <li>
-                        <span class="year-txt">1970-2009</span>
-                        <div class="circle">
-                            <svg>
-                                <circle cx="26" cy="26" r="23"></circle>
-                                <circle cx="26" cy="26" r="23"></circle>
-                            </svg>
-                        </div>
-                    </li>
-                    <li>
-                        <span class="year-txt">2010-NOW</span>
-                        <div class="circle">
-                            <svg>
-                                <circle cx="26" cy="26" r="23"></circle>
-                                <circle cx="26" cy="26" r="23"></circle>
-                            </svg>
-                        </div>
-                    </li>
-                </ul>
+        <div id="box_history">
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
+                <h1>邁向<span>全新的開始</span></h1>
+                <img src="images/history/pic_main.jpg" alt="合利他命藥品股份有限公司">
+                <p>2021年4月1日起，武田消費者保健公司更名為「合利他命製藥公司」。 </p>
+                <p>我們將這次的更名視為一種面對未來的轉換，並將持續挑戰新事物。當然，我們為各位顧客提供健康富足生活的想法從未改變。我們的製程、工廠以及技術人員等生產體制都將一如往常地為各位提供各項產品。</p>
+                <p>敬請各位舊雨新知不吝繼續支持與鼓勵。</p>
             </div>
-            <div class="timeline">
-                <div class="timeline-area" g-page="History_1781_1914">
-                    <div class="timeline-item odd">
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1781</h2>
-                            <h3>創建</h3>
-                            <p class="timeline__content-desc">
-                                武田藥品工業創辦人武田長兵衛<br>開始在日本的醫藥區大阪道修町出售傳統的日本和中國草藥
-                            </p>
-                            <img class="timeline__img" src="images/history/story_1.jpg" alt="1781創建" />
-                        </div>
-                    </div>
-                    <div class="timeline-item even" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1895</h2>
-                            <h3>製藥業務啟動</h3>
-                            <p class="timeline__content-desc">
-                                於大阪建立工廠，一躍成為製藥企業
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item odd" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1914</h2>
-                            <h3>研究活動從設立研究部門開始</h3>
-                            <p class="timeline__content-desc">
-                                Calmotin®（鎮靜劑）、Novoroform®（止痛藥）<br>和Lodinon®（D-葡萄糖注射劑）
-                            </p>
-                            <img class="timeline__img" src="images/history/story_2.jpg" alt="1914研究活動從設立研究部門開始"/>
-                        </div>
-                    </div>
+
+            <div data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
+                <div class="titleBar">關於商標</div>
+                <img class="pic_logo" src="images/history/pic_logo.png" alt="合利他命藥品logo">
+                <p>在新商標中，蘊含著合利他命製藥公司「<strong class="txt_bold">即將改變的事</strong>」以及「<strong class="txt_bold">承諾不變的事</strong>」兩種含意。 </p>
+            </div>
+
+            <div class="box_note box_note1" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
+                「即將改變」的是，加緊開拓未來的腳步以及不斷挑戰的心；<br>
+                「承諾不變」的是，我們的信念（誠信、公正、正直、不屈）<br>
+                <span>以及以客為尊的精神。</span>
+            </div>
+            
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
+                <img src="images/history/pic_logoinfo.png" alt="合利他命藥品logo涵義">
+                <div class="box_note">
+                    將合利他命製藥的首字母「 <strong class="txt_bold">A</strong> 」符號化<br>
+                    對各位關係人以及對於社會的「 <strong class="txt_bold">承諾象徵</strong> 」<br> 
+                    間隙表示相互扶持的姿態= <strong class="txt_bold">信賴</strong>
                 </div>
-                <div class="timeline-area" g-page="History_1915_1946">
-                    <div class="timeline-item even" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1915</h2>
-                            <h3>武田藥品工業株式會社成立</h3>
-                            <p class="timeline__content-desc">
-                                成立測試部門與負責研究開發新藥品的研究部門<br>此時期形成的研發體系成為引領武田成長的基石
-                            </p>
-                            <img class="timeline__img" src="images/history/story_3.jpg" alt="1915武田藥品工業株式會社成立"/>
-                        </div>
-                    </div>
-                    <div class="timeline-item odd" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1925</h2>
-                            <h3>成立Chobei Takeda & Co., Ltd<br>股份有限公司</h3>
-                            <p class="timeline__content-desc">公司從私營企業轉型為集研發、<br>製造行銷於一體現代化企業集團<br>1943 更名為武田藥業有限公司
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item even" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1946</h2>
-                            <h3>山口縣光市工廠開業</h3>
-                            <p class="timeline__content-desc">繼大阪工廠後，於山口縣光市成立武田的第二家工廠<br>主要生產當時社會亟需的疫苗
-                            </p>
-                            <img class="timeline__img" src="images/history/story_4.jpg" alt="1946山口縣光市工廠開業" />
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-area" g-page="History_1950_1962">
-                    <div class="timeline-item odd" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1950</h2>
-                            <h3>武田開始在日本販售首批綜合維他命</h3>
-                            <p class="timeline__content-desc">
-                                PanvitanR 是日本武田生產的首款綜合維他命
-                            </p>
-                            <img class="timeline__img" src="images/history/story_5.jpg" alt="武田開始在日本販售首批綜合維他命"/>
-                        </div>
-                    </div>
-                    <div class="timeline-item even" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1954</h2>
-                            <h3>開始銷售合利他命</h3>
-                            <p class="timeline__content-desc">武田成功開發並開始銷售維他命 B<i class="f-s-em8">1</i> 衍生物 Alinamin®<br>
-                                在同一時期，也開始供應維他命作為食品營養強化劑<br>
-                                以緩解戰後糧食短缺造成的營養不良
-                            </p>
-                            <img class="timeline__img" src="images/history/story_6.jpg" alt="1954開始銷售合利他命" />
-                        </div>
-                    </div>
-                    <div class="timeline-item odd" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1962</h2>
-                            <h3>設立台灣分公司，銷售擴大到亞洲</h3>
-                            <p class="timeline__content-desc">除了在台灣建立製造與行銷公司<br>在菲律賓、泰國和印度尼西亞等地<br>也建立製造和行銷公司
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-area" g-page="History_1988_2011">
-                    <div class="timeline-item even" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1978</h2>
-                            <h3>銷售擴大至歐洲</h3>
-                            <p class="timeline__content-desc">武田在法國建立了藥品行銷合資企業<br>之後在德國和義大利也建立了營運中心
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item odd" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">1988</h2>
-                            <h3>築波研究實驗室成立</h3>
-                            <p class="timeline__content-desc">
-                                除大阪的研究基地外<br>築波研究實驗室成為武田的第二個研究基地<br>這些實驗室採用尖端科技進行基礎研究
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item even" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">2005</h2>
-                            <h3>日本Alinamin A / Alinamin EX PLUS上市</h3>
-                            <img class="timeline__img" src="images/history/story_6.png" alt="2005日本Alinamin A與Alinamin EX PLUS上市"/>
-                        </div>
-                    </div>
-                </div>
-                <div class="timeline-area" g-page="History_2012_2014">
-                    <div class="timeline-item odd" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">2011</h2>
-                            <h3>支援日本的災後復原</h3>
-                            <p class="timeline__content-desc">
-                                武田捐贈合利他命的部分利潤<br>
-                                支援受東日本大地震影響地區的復原工作<br>
-                                集團還積極推行了其他多項長期持續的支援計劃
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item even" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">2012</h2>
-                            <h3>全球疫苗業務部成立</h3>
-                            <p class="timeline__content-desc">
-                                疫苗近年來對全球公共衛生產生了巨大影響。<br>
-                                武田決定將其在日本已活躍了 60 多年的疫苗業務全球化。
-                            </p>
-                        </div>
-                    </div>
-                    <div class="timeline-item odd" >
-                        <div class="timeline__content">
-                            <h2 class="timeline__content-title">2014</h2>
-                            <h3>Alinamin發售60週年</h3>
-                        </div>
+                <p>三角形的三個頂點分別象徵著挑戰、信念以及以客為尊的精神; 代表合利他命製藥的A，在其中配置的三角形象徵著面對未來的轉換; 全面換新的這個新商標象徵著對各位關係人以及對於社會的承諾。</p>
+            </div>
+            
+            <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
+                <div class="titleBar">特別影片</div>
+                <p>這部影片旨在介紹，新公司啟動時全體員工工作坊的紀錄影像，以及我們凝聚匯集在新商標中的想法。</p>
+                <div class="box_film">
+                    <div class='main_film'>
+                        <iframe src="https://www.youtube.com/embed/oL_xrUzdFmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-        </section>
-        <section class="banner" g-page="History_banner">
-            <div>
-                <div>
-                    <a href="<?php echo $rootURL;?>fursultiamine" g-event="武田歷史_醫療級B1 TTFD">
-                    <div class="history-btn"><img src="<?php echo $rootURL;?>images/history/btn1.png"></div>
-                    </a>
-                    <img src="<?php echo $rootURL;?>images/history/banner_1.jpg" alt="醫療級B群提供3大功效作用">
-                </div>
-                <div>
-                    <a href="<?php echo $rootURL;?>lineup" g-event="武田歷史_全產品列表">
-                    <div class="history-btn"><img src="<?php echo $rootURL;?>images/history/btn2.png"></div>
-                    </a>
-                    <img src="<?php echo $rootURL;?>images/history/banner_2.jpg" alt="合利他命全系列產品">
-                </div>
-            </div>
-            <ol class="tip">
-                衛署藥製字第030689號   衛署藥輸字第025431號   衛部藥輸字第027584號   北市衛藥廣字第110010079號   C-APROM/TW/THI/0030 DEC 2020   本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項
-            </ol>
-        </section>
+                
+        </div>
 
         <?php require('footer.php'); ?>
         <script src="<?php echo $rootURL;?>scripts/jquery-3.4.1.min.js"></script>
