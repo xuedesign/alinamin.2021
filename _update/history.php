@@ -20,9 +20,9 @@
 <body>
     <div id="app" class="wrap nofixed">
         <div class="header-h header-h2"></div>
-        <section class="kv">
+        <!-- <section class="kv">
             <img src="<?php echo $rootURL;?>images/history/kv.jpg">
-        </section>
+        </section> -->
         <?php require('nav.php'); ?>
 
         <div id="box_history">
@@ -61,7 +61,7 @@
                 <p>這部影片旨在介紹，新公司啟動時全體員工工作坊的紀錄影像，以及我們凝聚匯集在新商標中的想法。</p>
                 <div class="box_film">
                     <div class='main_film'>
-                        <iframe src="https://www.youtube.com/embed/oL_xrUzdFmQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/FJiOzajCpXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
