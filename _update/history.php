@@ -29,9 +29,8 @@
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
                 <h1>邁向<span>全新的開始</span></h1>
                 <img src="images/history/pic_main.jpg" alt="合利他命藥品股份有限公司">
-                <p>2021年4月1日起，武田消費者保健公司更名為「合利他命製藥公司」。 </p>
-                <p>我們將這次的更名視為一種面對未來的轉換，並將持續挑戰新事物。當然，我們為各位顧客提供健康富足生活的想法從未改變。我們的製程、工廠以及技術人員等生產體制都將一如往常地為各位提供各項產品。</p>
-                <p>敬請各位舊雨新知不吝繼續支持與鼓勵。</p>
+                <p>隨著全球武田藥品工業(Takeda)將消費保健品事業部的產品權利轉移至合利他命藥品(Alinamin pharmaceutical company Ltd.) 2022年4月，合利他命藥品股份有限公司台灣分公司也正式成立，持續提供消費者包含合利他命、必胃康、愛喜以及保能痔等消費保健產品。</p>
+                <p>我們所有產品的製程將與過去相同，產品的效果與成分也完全相同，感謝您過去對武田藥品工業消費保健品的支持，未來也請您繼續支持合利他命藥品。</p>
             </div>
 
             <div data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
@@ -57,8 +56,8 @@
             </div>
             
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
-                <div class="titleBar">特別影片</div>
-                <p>這部影片旨在介紹，新公司啟動時全體員工工作坊的紀錄影像，以及我們凝聚匯集在新商標中的想法。</p>
+                <div class="titleBar">認識合利他命製藥</div>
+                <p>讓我們帶您認識合利他命藥品所代表的精神與想法。</p>
                 <div class="box_film">
                     <div class='main_film'>
                         <iframe src="https://www.youtube.com/embed/FJiOzajCpXU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
