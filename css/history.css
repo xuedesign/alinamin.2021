@@ -435,7 +435,7 @@ svg circle:nth-child(2) {
   display: block;
   width: 60%;
   font-weight: bold;
-  font-size: 25px;
+  font-size: 23px;
   line-height:40px;
   color:#2c2c2c;
   margin: 40px auto;
@@ -575,5 +575,10 @@ iframe {
   }
   .timeline-item:last-child {
     /*padding-bottom: 40px;*/
+  }
+  .box_note{
+    width: 100%;
+    font-size: 17px;
+    line-height:30px;
   }
 }
