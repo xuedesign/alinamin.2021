@@ -325,7 +325,10 @@
     margin-top:65px
 }
 .mainBox-item:nth-child(2) .item-product{
-    margin-top:10px
+    margin-top:65px
+}
+.mainBox-item:nth-child(3) .item-product{
+    margin-top:65px
 }
 
 
@@ -358,7 +361,10 @@
         margin-top:55px
     }
     .mainBox-item:nth-child(2) .item-product{
-        margin-top:0
+        margin-top:55px
+    }
+    .mainBox-item:nth-child(3) .item-product{
+        margin-top:55px
     }
     .mainBox-item:nth-child(1) .item-name{
         width: 178px;
@@ -467,11 +473,12 @@
         margin-top: 50px;
     }
     .mainBox-item:nth-child(2) .item-product{
-        margin-top:20px
+        margin-top:30px
     }
     .mainBox-item:nth-child(3) .item-product{
         width: 79%;
         height: auto;
+        margin-top:30px
     }
     .mainBox-item:nth-child(1) .item-name{
         width: 129px;
@@ -514,11 +521,12 @@
         margin-top: 38px;
     }
     .mainBox-item:nth-child(2) .item-product{
-        margin-top:15px
+        margin-top:25px
     }
     .mainBox-item:nth-child(3) .item-product{
         width: 79%;
         height: auto;
+        margin-top:23px
     }
     .mainBox-item .item-name{
         margin: 15px auto 30px auto;
