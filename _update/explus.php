@@ -14,7 +14,7 @@
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="EX PLUS強效錠含六大強效配方，快速作用於神經與肌肉系統，緩解因為缺乏維生素B1而產生的眼睛疲勞、肩頸僵硬與腰酸背痛等症狀">
     <meta property="og:url" content="<?php echo $rootURL;?>product/explus">
-    <link rel="stylesheet" href="<?php echo $rootURL;?>css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -34,7 +34,7 @@
                 <div class="kvBg" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300">
                     <div class="flex-c-c">
                         <div class="kvPd" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="600">
-                            <img src="<?php echo $rootURL;?>images/explus/kvPd.png" alt="合利他命EX PLUS強效錠，改善眼睛疲勞/肩頸僵硬/腰背酸痛">
+                            <img src="images/explus/kvPd.png" alt="合利他命EX PLUS強效錠，改善眼睛疲勞/肩頸僵硬/腰背酸痛">
                         </div>
                         <div class="flex-start flex-col">
                             <div class="kvTitle" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="600">
@@ -193,7 +193,7 @@
                             <img src="<?php echo $rootURL;?>images/explus/pathBtn02M.png" alt="">
                         </a>
                     </div>
-                    <img src="<?php echo $rootURL;?>images/explus/pathBg.png" alt="EX PLUS強效錠連鎖通路藥局店家購買資訊" width="0" height="0">
+                    <img src="images/explus/pathBg.png" alt="EX PLUS強效錠連鎖通路藥局店家購買資訊" width="0" height="0">
                 </div>
                 <div class="tips02">衛署藥輸字第025431號   北市衛藥廣字第110010054號   C-APROM/TW/THI/0030 DEC 2020   本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</div>
             </div>

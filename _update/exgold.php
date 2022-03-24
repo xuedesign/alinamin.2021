@@ -14,7 +14,7 @@
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="EX GOLD金強效錠含活性B1誘導體及全方位活性B群，有效緩解末梢血液循環不流暢所引起的手腳發麻、神經痛、肌肉或關節疼痛">
     <meta property="og:url" content="<?php echo $rootURL;?>product/exgold">
-    <link rel="stylesheet" href="<?php echo $rootURL;?>css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -33,7 +33,7 @@
                 <div class="kvBg" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300">
                     <div class="flex-c-c">
                         <div class="kvPd" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="600">
-                            <img src="<?php echo $rootURL;?>images/exgold/kvPd.png" alt="合利他命EX GOLD金強效錠，有效緩解末梢發麻、神經痛">
+                            <img src="images/exgold/kvPd.png" alt="合利他命EX GOLD金強效錠，有效緩解末梢發麻、神經痛">
                         </div>
                         <div class="flex-start flex-col">
                             <div class="kvTitle" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="600">
@@ -166,7 +166,7 @@
                             <img src="<?php echo $rootURL;?>images/exgold/pathBtn02M.png" alt="">
                         </a>
                     </div>
-                    <img src="<?php echo $rootURL;?>images/exgold/pathBg.png" alt="EX GOLD金強效錠連鎖通路藥局店家購買資訊" width="0" height="0">
+                    <img src="images/exgold/pathBg.png" alt="EX GOLD金強效錠連鎖通路藥局店家購買資訊" width="0" height="0">
                 </div>
                 <div class="tips02">衛部藥輸字第027584號   北市衛藥廣字第110010055號   C-APROM/TW/THI/0030 DEC 2020   本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</div>
             </div>

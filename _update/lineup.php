@@ -42,8 +42,8 @@
                     <p class="pc">一吃有感<br>迅速消除疲勞</p>
                     <div>
                         <div class="series-pro">
-                            <img src="<?php echo $rootURL;?>images/series/pro1.png" alt="合利他命愛A25" class="pc">
-                            <img src="<?php echo $rootURL;?>images/series/m_pro1.png" alt="合利他命愛A25" class="mb">
+                            <img src="images/series/pro1.png" alt="合利他命愛A25" class="pc">
+                            <img src="images/series/m_pro1.png" alt="合利他命愛A25" class="mb">
                         </div>
                     </div>
                     <div>
@@ -62,8 +62,8 @@
                     <p class="pc">改善眼睛疲勞/<br>肩頸僵硬/腰背酸痛</p>
                     <div>
                         <div class="series-pro">
-                            <img src="<?php echo $rootURL;?>images/series/pro2.png" alt="合利他命EX PLUS強效錠" class="pc">
-                            <img src="<?php echo $rootURL;?>images/series/m_pro2.png" alt="合利他命EX PLUS強效錠" class="mb">
+                            <img src="images/series/pro2.png" alt="合利他命EX PLUS強效錠" class="pc">
+                            <img src="images/series/m_pro2.png" alt="合利他命EX PLUS強效錠" class="mb">
                         </div>
                     </div>
                     <div>
@@ -82,8 +82,8 @@
                     <p class="pc">有效緩解<br>末梢發麻/神經痛</p>
                     <div>
                         <div class="series-pro">
-                            <img src="<?php echo $rootURL;?>images/series/pro3.png" alt="合利他命EX GOLD金強效錠" class="pc">
-                            <img src="<?php echo $rootURL;?>images/series/m_pro3.png" alt="合利他命EX GOLD金強效錠" class="mb">
+                            <img src="images/series/pro3.png" alt="合利他命EX GOLD金強效錠" class="pc">
+                            <img src="images/series/m_pro3.png" alt="合利他命EX GOLD金強效錠" class="mb">
                         </div>
                     </div>
                     <div>
@@ -209,8 +209,8 @@
                      <div class="result" g-page="lineup_examination_result">
                          <div style="display: none;">
                             <div class="result-pro">
-                                <img src="<?php echo $rootURL;?>images/series/select_pro1.png" alt="" class="pc">
-                                <img src="<?php echo $rootURL;?>images/series/m_select_pro1.png" alt="" class="mb">
+                                <img src="images/series/select_pro1.png" alt="" class="pc">
+                                <img src="images/series/m_select_pro1.png" alt="" class="mb">
                                 <div class="mb">
                                     <h3>根據檢測結果</h3>
                                     <p>推薦使用A25<br>改善疲勞症狀問題</p>
@@ -245,8 +245,8 @@
                          </div>
                          <div style="display: none;">
                             <div class="result-pro">
-                                <img src="<?php echo $rootURL;?>images/series/select_pro2.png" alt="" class="pc">
-                                <img src="<?php echo $rootURL;?>images/series/m_select_pro2.png" alt="" class="mb">
+                                <img src="images/series/select_pro2.png" alt="" class="pc">
+                                <img src="images/series/m_select_pro2.png" alt="" class="mb">
                                 <div class="mb">
                                     <h3>根據檢測結果</h3>
                                 <p>推薦使用EX PLUS強效錠<br>改善酸痛問題</p>
@@ -281,8 +281,8 @@
                          </div>
                          <div style="display: none;">
                             <div class="result-pro">
-                                <img src="<?php echo $rootURL;?>images/series/select_pro3.png" alt="" class="pc">
-                                <img src="<?php echo $rootURL;?>images/series/m_select_pro3.png" alt="" class="mb">
+                                <img src="images/series/select_pro3.png" alt="" class="pc">
+                                <img src="images/series/m_select_pro3.png" alt="" class="mb">
                                 <div class="mb">
                                    <h3>根據檢測結果</h3>
                                     <p>推薦使用EX GOLD<br>金強效錠改善發麻症狀問題</p>

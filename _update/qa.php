@@ -79,7 +79,7 @@
                                             
                                             <ul class="swiper-slide">
                                                 <li class="ptFlex">
-                                                    <img src="<?php echo $rootURL;?>images/qa/a25.png" class="photo">
+                                                    <img src="images/qa/a25.png" class="photo">
                                                     <a href="<?php echo $rootURL;?>product/a25"class="prod" g-event="Q&A_合利他命全產品_Q1_A25產品介紹">產品介紹</a>
                                                 </li>
                                                 <li><img src="<?php echo $rootURL;?>images/qa/a25_font.png" class="font"></li>
@@ -127,7 +127,7 @@
                                             </ul>
                                             <ul class="swiper-slide">
                                                 <li class="ptFlex">
-                                                    <img src="<?php echo $rootURL;?>images/qa/plus.png" class="photo photo2">
+                                                    <img src="images/qa/plus.png" class="photo photo2">
                                                     <a href="<?php echo $rootURL;?>product/explus"class="prod" g-event="Q&A_合利他命全產品_Q1_EX PLUS產品介紹">產品介紹</a>
                                                 </li>
                                                 <li><img src="<?php echo $rootURL;?>images/qa/plus_font.png" class="font"></li>
@@ -188,7 +188,7 @@
                                             </ul>
                                             <ul class="swiper-slide">
                                                 <li class="ptFlex">
-                                                    <img src="<?php echo $rootURL;?>images/qa/gold.png" class="photo photo2">
+                                                    <img src="images/qa/gold.png" class="photo photo2">
                                                     <a href="<?php echo $rootURL;?>product/exgold" class="prod" g-event="Q&A_合利他命全產品_Q1_EX GOLD產品介紹">產品介紹</a>
                                                 </li>
                                                 <li><img src="<?php echo $rootURL;?>images/qa/gold_font.png" class="font"></li>

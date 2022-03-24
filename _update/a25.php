@@ -15,7 +15,7 @@
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="愛A25含活性維生素B1誘導體，並添加維生素B2、B6、B12，吸收效果佳，一吃有感迅速消除疲勞">
     <meta property="og:url" content="<?php echo $rootURL;?>product/a25">
-    <link rel="stylesheet" href="<?php echo $rootURL;?>css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
@@ -35,7 +35,7 @@
                 <div class="kvBg" data-aos="fade-in" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300">
                     <div class="flex-c-c">
                         <div class="kvPd" data-aos="fade-right" data-aos-duration="1000" data-aos-once="true" data-aos-delay="600">
-                            <img src="<?php echo $rootURL;?>images/a25/kvPd.png" alt="合利他命愛A25一吃有感迅速消除疲勞">
+                            <img src="images/a25/kvPd.png" alt="合利他命愛A25一吃有感迅速消除疲勞">
                         </div>
                         <div class="flex-start flex-col">
                             <div class="kvTitle" data-aos="fade-left" data-aos-duration="1000" data-aos-once="true" data-aos-delay="600">
@@ -157,7 +157,7 @@
                             <img src="<?php echo $rootURL;?>images/a25/pathBtn02M.png" alt="">
                         </a>
                     </div>
-                    <img src="<?php echo $rootURL;?>images/a25/pathBg.png" alt="愛A25連鎖通路藥局店家購買資訊" width="0" height="0">
+                    <img src="images/a25/pathBg.png" alt="愛A25連鎖通路藥局店家購買資訊" width="0" height="0">
                 </div>
                 <div class="tips02">衛署藥製字第030689號   北市衛藥廣字第110010049號   C-APROM/TW/THI/0030 DEC 2020   本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</div>
             </div>
