@@ -62,6 +62,15 @@ section .content{
 	line-height:36px;
 	text-align: justify
 }
+#box-content a,
+#box-content a:visited{
+	color: #2d2d2d;
+	text-decoration: underline;
+	transform: .5s
+}
+#box-content a:hover{
+	color:#df0716
+}
 .mainBox-item{
 	display: block;
 	background: #fff;
