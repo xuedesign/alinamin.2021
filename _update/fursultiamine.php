@@ -79,7 +79,7 @@
                     <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="300"><span>01</span>大量生成活化型維生素B<i class="f-s-em8">1</i>，快速消除疲勞</h3>
                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="450">
                         <div>
-                            <p>武田藥品開發維生素B<i class="f-s-em8">1</i>衍生物「Fursultiamine」，能在人體大量製造「活化型維生素B<i class="f-s-em8">1</i>」，彌補維生素B<i class="f-s-em8">1</i>難被吸收弱點。</p>
+                            <p>維生素B<i class="f-s-em8">1</i>衍生物「Fursultiamine」，能在人體大量製造「活化型維生素B<i class="f-s-em8">1</i>」，彌補維生素B<i class="f-s-em8">1</i>難被吸收弱點。</p>
                             <p>水溶性的維生素B<i class="f-s-em8">1</i>如果沒有運輸蛋白（輸送載體），就無法通過脂質組成的小腸細胞膜；但是脂溶性的「Fursultiamine」無需運輸蛋白，就能通過細胞膜進入人體或血液。</p>
                             <p>因此，與維生素B<i class="f-s-em8">1</i>相比，「Fursultiamine」可以被大量吸收及送達組織。</p>
                         </div>
