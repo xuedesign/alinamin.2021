@@ -69,7 +69,8 @@ section .content{
 	transform: .5s
 }
 #box-content a:hover{
-	color:#df0716
+	color:#df0716;
+	text-decoration: none;
 }
 .mainBox-item{
 	display: block;
