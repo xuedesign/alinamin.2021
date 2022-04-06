@@ -97,21 +97,21 @@
                                 <a href="a25" title="合利他命愛A25">
                                 <h5>一吃有感<br>迅速消除疲勞</h5>
                                 <img class="item-product" src="images/intro/pro1.png" alt="合利他命愛A25">
-                                <img class="item-name" src="https://alinamin.com.tw/images/series/series_pro1_name.png" alt="*">
+                                <img class="item-name" src="images/series/series_pro1_name.png" alt="*">
                                 </a>
                             </div>
                             <div class="mainBox-item">
                                 <a href="explus" title="合利他命EX PLUS強效錠">
                                 <h5>改善眼睛疲勞/<br>肩頸僵硬/腰背酸痛</h5>
                                 <img class="item-product" src="images/intro/pro2.png" alt="合利他命EX PLUS強效錠">
-                                <img class="item-name" src="https://alinamin.com.tw/images/series/series_pro2_name.png" alt="*"/>
+                                <img class="item-name" src="images/series/series_pro2_name.png" alt="*"/>
                                 </a>
                             </div>
                             <div class="mainBox-item">
                                 <a href="exgold" title="合利他命EX GOLD金強效錠">
                                 <h5>有效緩解<br>末梢發麻/神經痛</h5>
                                 <img class="item-product" src="images/intro/pro3.png" alt="合利他命EX GOLD金強效錠">
-                                <img class="item-name" src="https://alinamin.com.tw/images/series/series_pro3_name.png" alt="*">
+                                <img class="item-name" src="images/series/series_pro3_name.png" alt="*">
                                 </a>
                             </div>
                         </div>
