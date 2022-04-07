@@ -93,6 +93,9 @@ section .content{
 	width: 95%;
 	margin: 0 auto 20px auto;
 }
+.blogBox .container .pic_small{
+	width: 75%;
+}
 
 .blogBox .container > section{
 	margin-bottom: 30px;
@@ -437,5 +440,8 @@ sub{
 		background: url(../images/blogs/btn_flatdown-02.png);
 		background-size: contain;
 		background-repeat: no-repeat;
+	}
+	.blogBox .container .pic_small{
+		width: 90%;
 	}
 }
