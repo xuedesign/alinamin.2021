@@ -180,8 +180,8 @@ var app = new Vue({
             option: '產品品項',
             select: 'close'
         },
-        // options: ['產品品項','愛-A25','EX PLUS 強效錠','EX GOLD 金強效錠'],
-        options: ['產品品項','愛-A25','EX PLUS 強效錠']
+        options: ['產品品項','愛-A25','EX PLUS 強效錠','EX GOLD 金強效錠'],
+        // options: ['產品品項','愛-A25','EX PLUS 強效錠']
     },
     methods:{
         changeKind: function(kind){
