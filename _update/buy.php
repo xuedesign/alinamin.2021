@@ -61,13 +61,13 @@
                                     <img src="<?php echo $rootURL;?>images/store/2.png">
                                     <p>Cosmed</p>
                                 </a>
-                                <a href="http://www.tomods.com.tw/stores" target="_blank" class="swiper-slide">
-                                    <img src="<?php echo $rootURL;?>images/store/3.png">
-                                    <p>Tomods</p>
-                                </a>
                                 <a href="http://www.yeschain.com.tw/stores.php" target="_blank" class="swiper-slide">
                                     <img src="<?php echo $rootURL;?>images/store/4.png">
                                     <p>躍獅藥局</p>
+                                </a>
+                                <a href="http://www.tomods.com.tw/stores" target="_blank" class="swiper-slide">
+                                    <img src="<?php echo $rootURL;?>images/store/3.png">
+                                    <p>Tomods</p>
                                 </a>
                                 <a href="https://www.greattree.com.tw/stores" target="_blank" class="swiper-slide">
                                     <img src="<?php echo $rootURL;?>images/store/5.png">
