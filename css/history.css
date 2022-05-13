@@ -475,7 +475,7 @@ iframe {
 
 #box_marquee{
   display: flex;
-  width: 1200px;
+  width: 900px;
   margin: 30px auto;
   overflow: hidden;
 }
@@ -496,7 +496,8 @@ iframe {
 #box_marquee .marquee22 img{
   display: flex;
   width: auto;
-  height: 398px;
+  height: 230px;
+  /* height: 398px; */
 }
 
 @keyframes marquee {

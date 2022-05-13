@@ -440,7 +440,7 @@
                             <div class="answerContent">
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
-                                    <p>武田藥品研發的TTFD是維生素B<b class="f-s-em8">1</b>衍生物(又稱維生素B<b class="f-s-em8">1</b>誘導體)，能令維生素B<b class="f-s-em8">1</b>更容易被吸收，並有效作用於神經與肌肉組織，從根源緩解酸痛。</p>
+                                    <p>TTFD是維生素B<b class="f-s-em8">1</b>衍生物(又稱維生素B<b class="f-s-em8">1</b>誘導體)，能令維生素B<b class="f-s-em8">1</b>更容易被吸收，並有效作用於神經與肌肉組織，從根源緩解酸痛。</p>
                                 </div>
                             </div>
                         </div>
@@ -457,7 +457,7 @@
                             <div class="answerContent">
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
-                                    <p>它是由武田藥品開發的維生素B<b class="f-s-em8">1</b>衍生物，能幫助葡萄糖轉換成細胞需要的熱量，與一般的維生素B<b class="f-s-em8">1</b>相比，可產生高量的維生素B<b class="f-s-em8">1</b>，很好的被人體吸收並到達全身。</p>
+                                    <p>維生素B<b class="f-s-em8">1</b>衍生物，能幫助葡萄糖轉換成細胞需要的熱量，與一般的維生素B<b class="f-s-em8">1</b>相比，可產生高量的維生素B<b class="f-s-em8">1</b>，很好的被人體吸收並到達全身。</p>
                                 </div>
                             </div>
                         </div>
@@ -568,7 +568,7 @@
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
                                     <p>維生素B群為水溶性，若攝取過量會由尿液排除，故不需太擔憂攝取過量或成癮的問題。</p>
-                                    <p>即便如此，請依照武田的仿單/說明書用法服用合利他命，武田不建議任何非仿單之使用方式。</p>
+                                    <p>即便如此，請依照仿單/說明書用法服用合利他命，不建議任何非仿單之使用方式。</p>
                                 </div>
                             </div>
                         </div>
@@ -739,7 +739,7 @@
                             <div class="answerContent">
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
-                                    <p>合利他命EX PLUS強效錠是由日本武田藥品研發，於日本製造及包裝，再原裝進口至台灣，成分與日本出售的相同。</p>
+                                    <p>合利他命EX PLUS強效錠是由日本武田藥品研發，於日本製造及包裝，再原裝進口至台灣，成分、劑量皆與日本出售的相同。</p>
                                 </div>
                             </div>
                         </div>
@@ -855,7 +855,7 @@
                             <div class="answerContent">
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
-                                    <p>請認明包裝上印有台灣武田、有中文標示的合利他命EX PLUS強效錠，才是合法自日本原裝進口的產品，從生產到配送嚴格依照法規管控品質，保障消費者用藥安全。全日文版本之產品並非台灣武田公司進口之包裝，亦非衛福部核准之產品，其商品來源與品質均缺乏保障。</p>
+                                    <p>請認明包裝上印有本公司商標以及中文標示的合利他命EX PLUS強效錠，才是合法自日本原裝進口的產品，從生產到配送嚴格依照法規管控品質，保障消費者用藥安全。全日文版本之產品並非合利他命藥品進口之包裝，亦非衛福部核准之產品，其商品來源與品質均缺乏保障。</p>
                                 </div>
                             </div>
                         </div>
@@ -895,7 +895,7 @@
                             <div class="answerContent">
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
-                                    <p>合利他命EX GOLD金強效錠是由日本武田藥品研發，於日本製造及包裝，再原裝進口至台灣，成分與日本出售的相同。 </p>
+                                    <p>合利他命EX GOLD金強效錠是於日本製造及包裝，再原裝進口至台灣，成分、劑量皆與日本出售的相同。</p>
                                 </div>
                             </div>
                         </div>
