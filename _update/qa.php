@@ -550,20 +550,59 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="qaBox">
+                        <div class="question collapsed" data-toggle="collapse" data-target="#cq12" aria-expanded="false"
+                            aria-controls="cq12">
+                            <div class="txt">
+                                <span>Q <b>11</b></span>
+                                <p>廣告跟網站上的合利他命產品包裝上已經沒有台灣武田商標，但為什麼我買到的產品包裝上還有台灣武田公司資訊呢?</p>
+                            </div>
+                            <!-- <i class="fas fa-plus"></i> -->
+                        </div>
+                        <div class="answer collapse" id="cq12" data-parent="#qa">
+                            <div class="answerContent">
+                                <i class="fas fa-caret-right"></i>
+                                <div class="content">
+                                    <p>合利他命過去為台灣武田旗下之產品，而台灣武田已將合利他命全系列產品之所有權移轉給合利他命藥品股份有限公司。正式移轉時間點為2022年4月，因此在此之前上架的產品包裝上仍為台灣武田公司資訊，為合法銷售之產品。此所有權移轉不涉及產品成分、品質，請您放心使用。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="qaBox">
+                        <div class="question collapsed" data-toggle="collapse" data-target="#cq13" aria-expanded="false"
+                            aria-controls="cq13">
+                            <div class="txt">
+                                <span>Q <b>12</b></span>
+                                <p>為什麼市面上的合利他命產品包裝有不同版本?</p>
+                            </div>
+                            <!-- <i class="fas fa-plus"></i> -->
+                        </div>
+                        <div class="answer collapse" id="cq13" data-parent="#qa">
+                            <div class="answerContent">
+                                <i class="fas fa-caret-right"></i>
+                                <div class="content">
+                                    <p>合利他命過去為台灣武田藥品工業股份有限公司旗下之產品，台灣武田已將合利他命全系列產品所有權轉移至合利他命藥品股份有限公司，因此包裝上的相關資訊做對應的調整。因此短期內市面上之產品可能有不同版本。此所有權移轉不影響產品品質、功效與成分，請您放心使用。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                     <ol class="tip m-t30">
                         衛署藥製字第030689號   衛署藥輸字第025431號   衛部藥輸字第027584號   北市衛藥廣字第XXXXXXXXX號   C-APROM/TW/THI/0030 DEC 2020   本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項
                     </ol>
 
                     <h2 class="newtitle">認識維生素B</h2>
                     <div class="qaBox">
-                        <div class="question collapsed" data-toggle="collapse" data-target="#cq12" aria-expanded="false" aria-controls="cq12">
+                        <div class="question collapsed" data-toggle="collapse" data-target="#cq14" aria-expanded="false" aria-controls="cq14">
                             <div class="txt">
                                 <span>Q <b>1</b></span>
                                 <p>使用B群會有過量或是成癮的疑慮嗎?</p>
                             </div>
                             <!-- <i class="fas fa-plus"></i> -->
                         </div>
-                        <div class="answer collapse" id="cq12" data-parent="#qa">
+                        <div class="answer collapse" id="cq14" data-parent="#qa">
                             <div class="answerContent">
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
@@ -575,14 +614,14 @@
                     </div>
 
                     <div class="qaBox">
-                        <div class="question collapsed" data-toggle="collapse" data-target="#cq13" aria-expanded="false" aria-controls="cq13">
+                        <div class="question collapsed" data-toggle="collapse" data-target="#cq15" aria-expanded="false" aria-controls="cq15">
                             <div class="txt">
                                 <span>Q <b>2</b></span>
                                 <p>活性B群跟非活性B群有什麼不同?</p>
                             </div>
                             <!-- <i class="fas fa-plus"></i> -->
                         </div>
-                        <div class="answer collapse" id="cq13" data-parent="#qa">
+                        <div class="answer collapse" id="cq15" data-parent="#qa">
                             <div class="answerContent">
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
@@ -594,14 +633,14 @@
                     </div>
 
                     <div class="qaBox">
-                        <div class="question collapsed" data-toggle="collapse" data-target="#cq14" aria-expanded="false" aria-controls="cq14">
+                        <div class="question collapsed" data-toggle="collapse" data-target="#cq16" aria-expanded="false" aria-controls="cq16">
                             <div class="txt">
                                 <span>Q <b>3</b></span>
                                 <p>維生素B<b class="f-s-em8">1</b>是否能增強免疫力?</p>
                             </div>
                             <!-- <i class="fas fa-plus"></i> -->
                         </div>
-                        <div class="answer collapse" id="cq14" data-parent="#qa">
+                        <div class="answer collapse" id="cq16" data-parent="#qa">
                             <div class="answerContent">
                                 <i class="fas fa-caret-right"></i>
                                 <div class="content">
@@ -610,45 +649,6 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="qaBox">
-                        <div class="question collapsed" data-toggle="collapse" data-target="#cq15" aria-expanded="false"
-                            aria-controls="cq15">
-                            <div class="txt">
-                                <span>Q <b>4</b></span>
-                                <p>廣告跟網站上的合利他命產品包裝上已經沒有台灣武田商標，但為什麼我買到的產品包裝上還有台灣武田公司資訊呢?</p>
-                            </div>
-                            <!-- <i class="fas fa-plus"></i> -->
-                        </div>
-                        <div class="answer collapse" id="cq15" data-parent="#qa">
-                            <div class="answerContent">
-                                <i class="fas fa-caret-right"></i>
-                                <div class="content">
-                                    <p>合利他命過去為台灣武田旗下之產品，而台灣武田已將合利他命全系列產品之所有權移轉給合利他命藥品股份有限公司。正式移轉時間點為2022年4月，因此在此之前上架的產品包裝上仍為台灣武田公司資訊，為合法銷售之產品。此所有權移轉不涉及產品成分、品質，請您放心使用。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="qaBox">
-                        <div class="question collapsed" data-toggle="collapse" data-target="#cq16" aria-expanded="false"
-                            aria-controls="cq16">
-                            <div class="txt">
-                                <span>Q <b>5</b></span>
-                                <p>為什麼市面上的合利他命產品包裝有不同版本?</p>
-                            </div>
-                            <!-- <i class="fas fa-plus"></i> -->
-                        </div>
-                        <div class="answer collapse" id="cq16" data-parent="#qa">
-                            <div class="answerContent">
-                                <i class="fas fa-caret-right"></i>
-                                <div class="content">
-                                    <p>合利他命過去為台灣武田藥品工業股份有限公司旗下之產品，台灣武田已將合利他命全系列產品所有權轉移至合利他命藥品股份有限公司，因此包裝上的相關資訊做對應的調整。因此短期內市面上之產品可能有不同版本。此所有權移轉不影響產品品質、功效與成分，請您放心使用。</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
                 </div> 
 
                 <div class="accordion" id="qa" v-if="kind=='a25'">
