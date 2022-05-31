@@ -84,7 +84,7 @@
                 <p>讓我們帶您認識合利他命藥品所代表的精神與想法。</p>
                 <div class="box_film">
                     <div class='main_film'>
-                        <iframe src="https://www.youtube.com/embed/zjWhI06fHQs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe src="https://www.youtube.com/embed/zjWhI06fHQs?&cc_load_policy=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
