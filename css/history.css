@@ -473,6 +473,16 @@ iframe {
   height: 100%;
 }
 
+.myTip{
+  display: block;
+  padding-top:50px;
+  font-size: 12px;
+  line-height:20px;
+  text-align: center;
+  color: #000;
+  opacity: 0.6;
+}
+
 #box_marquee{
   display: flex;
   width: 900px;

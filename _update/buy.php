@@ -151,7 +151,7 @@
 
 
                 </div>
-				<ol class="tip t-a-r m-t30 m-r40">C-APROM/TW/THI/0030 DEC 2020</ol>
+				<ol class="tip t-a-r m-t30 m-r40">北市衛藥廣字第111060105號</ol>
             </div>
             
         </section>

@@ -320,7 +320,7 @@
                  </div>
             </div>
         </section>
-        <ol class="tip m-t30">衛署藥製字第030689號   衛署藥輸字第025431號   衛部藥輸字第027584號   北市衛藥廣字第110010051/110050127號   C-APROM/TW/THI/0030 DEC 2020   本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</ol>
+        <ol class="tip m-t30">衛署藥製字第030689號 衛署藥輸字第025431號 衛部藥輸字第027584號 北市衛藥廣字第111060107號 本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</ol>
         <?php require('footer.php'); ?>
         <script src="<?php echo $rootURL;?>scripts/jquery-3.4.1.min.js"></script>
         <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>

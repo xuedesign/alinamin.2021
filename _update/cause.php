@@ -330,7 +330,7 @@
                 </div>
             </div>
             <div class="content m-t30">
-                <ol class="tip t-a-r">C-APROM/TW/THI/0030 DEC 2020</ol>
+                <ol class="tip t-a-c">衛署藥製字第030689號 衛署藥輸字第025431號 衛部藥輸字第027584號 北市衛藥廣字第111060105號 本品為醫師藥師藥劑生指示藥品，使用前請詳閱說明書警語及注意事項</ol>
             </div>
         </section>
         <?php require('footer.php'); ?>
