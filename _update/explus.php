@@ -14,7 +14,7 @@
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="EX PLUS強效錠含六大強效配方，快速作用於神經與肌肉系統，緩解因為缺乏維生素B1而產生的眼睛疲勞、肩頸僵硬與腰酸背痛等症狀">
     <meta property="og:url" content="<?php echo $rootURL;?>product/explus">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php echo $rootURL;?>css/style.css">
 </head>
 
 <body>

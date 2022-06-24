@@ -16,9 +16,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 了解更多
                 <i class="nav-arrow"></i>
                 <div class="dropdown">
-                    <a  href="<?php echo $rootURL;?>product/exgold" g-event="Nav_了解更多_EXGOLD金強效錠">EX GOLD 金強效錠</a>
-                    <a href="<?php echo $rootURL;?>product/explus" g-event="Nav_了解更多_EXPLUS強效錠">EX PLUS 強效錠</a>
-                    <a href="<?php echo $rootURL;?>product/a25" g-event="Nav_了解更多_愛A25">愛A25</a>
+                    <a href="<?php echo $rootURL;?>exgold" g-event="Nav_了解更多_EXGOLD金強效錠">EX GOLD 金強效錠</a>
+                    <a href="<?php echo $rootURL;?>explus" g-event="Nav_了解更多_EXPLUS強效錠">EX PLUS 強效錠</a>
+                    <a href="<?php echo $rootURL;?>a25" g-event="Nav_了解更多_愛A25">愛A25</a>
                     <a href="<?php echo $rootURL;?>buy/#pcs" g-event="Nav_了解更多_購買通路">購買通路</a>
                  <!--    <a href="<?php //echo $rootURL;?>QA/#all" g-event="Nav_了解更多_常見問題Q&A">常見問題Q&A</a> -->
                     <a href="<?php echo $rootURL;?>history" g-event="Nav_了解更多_合利他命藥品">合利他命藥品</a>
@@ -46,9 +46,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="<?php echo $rootURL;?>." class="menu-home"  g-event="Nav_HOME">回首頁</a>
     </div>
     <div class="menuBox light">
-        <a  href="<?php echo $rootURL;?>product/exgold" g-event="Nav_了解更多_EXGOLD金強效錠">EX GOLD 金強效錠</a>
-        <a href="<?php echo $rootURL;?>product/explus" g-event="Nav_了解更多_EXPLUS強效錠">EX PLUS 強效錠</a>
-        <a href="<?php echo $rootURL;?>product/a25" g-event="Nav_了解更多_愛A25">愛A25</a>
+        <a  href="<?php echo $rootURL;?>exgold" g-event="Nav_了解更多_EXGOLD金強效錠">EX GOLD 金強效錠</a>
+        <a href="<?php echo $rootURL;?>explus" g-event="Nav_了解更多_EXPLUS強效錠">EX PLUS 強效錠</a>
+        <a href="<?php echo $rootURL;?>a25" g-event="Nav_了解更多_愛A25">愛A25</a>
         <a href="<?php echo $rootURL;?>buy/#pcs" g-event="Nav_了解更多_購買通路">購買通路</a>
 <!--         <a href="<?php //echo $rootURL;?>QA/#all" g-event="Nav_了解更多_常見問題Q&A">常見問題Q&A</a> -->
         <a href="<?php echo $rootURL;?>history" g-event="Nav_了解更多_合利他命藥品">合利他命藥品</a>

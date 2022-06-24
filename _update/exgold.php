@@ -14,7 +14,7 @@
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="EX GOLD金強效錠含活性B1誘導體及全方位活性B群，有效緩解末梢血液循環不流暢所引起的手腳發麻、神經痛、肌肉或關節疼痛">
     <meta property="og:url" content="<?php echo $rootURL;?>product/exgold">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="<?php echo $rootURL;?>css/style.css">
 </head>
 
 <body>

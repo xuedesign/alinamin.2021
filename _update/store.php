@@ -1,0 +1,266 @@
+<?php require_once('config.php'); ?>
+<?php 
+ $page="store";
+?>
+<!doctype html>
+<html>
+
+<head>
+    <?php require_once('header.php'); ?>
+    <link rel="stylesheet" href="<?php echo $rootURL;?>css/index.css">
+    <link rel="stylesheet" href="<?php echo $rootURL;?>css/store.css">
+    <link href="<?php echo $rootURL;?>css/swiper.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.js" ></script>
+    <script src="<?php echo $rootURL;?>scripts/store.js" ></script>
+    <script src='<?php echo $rootURL;?>scripts/swiper.min.js'></script>
+</head>
+
+<body>
+    <div id="app" class="wrap">
+        <?php require('nav.php'); ?>
+        
+        <section class="storePage pageWarp">
+           
+            <div class="containerBox">
+                <h1>Store</h1>
+                <h4>哪買買</h4>
+
+                <!-- <div class="searchOption">
+                    <div class="menus">
+                        <p v-if="search.select == 'close'" :class="search.option=='產品品項'?'noSelect':''" @click.prevent="changeSelect()">{{search.option}}</p>
+                        <ul v-if="search.select == 'open'" @click.prevent="changeSelect()">
+                            <li v-for="item in options" :class="search.option==item?'choose':''" @click.prevent="setOption(item)">{{item}}</li>
+                        </ul>
+                    </div>
+                    <button class="btn" :class="search.select" @click.prevent="changeSelect('auto')"><i class="fas fa-caret-down"></i></button>
+                </div> -->
+
+                <div class="btns">
+                    <button class="btn" :class="kind=='store'?'btnActive':''" @click.prevent="changeKind('store')">連鎖通路</button>
+                    <button class="btn" :class="kind=='pycial'?'btnActive':''" @click.prevent="changeKind('pycial')">藥局店家</button>
+                </div>
+
+                <div v-show="kind=='store'"  class="storeBox">
+                    <div class="swiperBox">
+                        <div class="swiperStore">
+                            <div class="swiper-wrapper">
+                                <a href="https://www.watsons.com.tw/store-finder" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/1.png">
+                                    <p>Watsons</p>
+                                </a>
+                                <a href="https://www.cosmed.com.tw/shop.aspx" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/2.png">
+                                    <p>Cosmed</p>
+                                </a>
+                                <a href="http://www.tomods.com.tw/stores" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/3.png">
+                                    <p>Tomods</p>
+                                </a>
+                                <a href="http://www.yeschain.com.tw/stores.php" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/4.png">
+                                    <p>躍獅藥局</p>
+                                </a>
+                                <a href="https://www.greattree.com.tw/stores" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/5.png">
+                                    <p>大樹藥局</p>
+                                </a>
+                                <a href="http://www.yourchance.com.tw/index.php?temp=store&lang=cht" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/6.png">
+                                    <p>佑全健康人生</p>
+                                </a>
+                                <a href="https://www.norbelbaby.com.tw/TinTin/work.jsp" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/7.png">
+                                    <p>丁丁藥妝</p>
+                                </a>
+                                <a href="https://event.medfirst.com.tw/StoreMap/StoreMap.aspx" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/8.png">
+                                    <p>杏一藥局</p>
+                                </a>
+                                <a href="http://www.sintong.com/tw_profile.php?Kid=103&Aid=103001&PHPSESSID=9609107199ff1341c00bb29c8560fc12" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/9.png">
+                                    <p>信東藥妝</p>
+                                </a>
+                                <a href="https://www.woodpecker.com.tw/info/location" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/10.png">
+                                    <p>啄木鳥藥局</p>
+                                </a>
+                                <a href="http://www.wellcare.com.tw/wellindex/03map.htm" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/11.png">
+                                    <p>維康藥局</p>
+                                </a>
+                                <a href="https://www.fe-amart.com.tw/index.php/store" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/12.png">
+                                    <p>愛買</p>
+                                </a>
+                                <a href="https://www.jpmed.com.tw/zh-TW/store" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/13.png">
+                                    <p>日樂</p>
+                                </a>
+                                <a href="http://www.mecome.com.tw/front/bin/ptlist.phtml?Category=357323" target="_blank" class="swiper-slide">
+                                    <img src="./images/store/14.png">
+                                    <p>美康</p>
+                                </a>
+                                
+                            </div>
+                            
+                        </div>
+
+                        <!-- Add Arrows -->
+                        <div class="btnSwiper nexStore"><i class="fas fa-chevron-right"></i></div>
+                        <div class="btnSwiper prevStore"><i class="fas fa-chevron-left"></i></div>
+                    </div>    
+                </div>
+                <div v-show="kind=='pycial'"  class="storeBox">
+                    <div class="seletes">
+                        <select @change="getDistricts()" v-model="search.city">
+                            <option value="">請選擇縣市</option>
+                            <option v-for="item in citys" :value="item">{{item}}</option>
+                        </select>
+                        <select  @change="getView()" v-model="search.district">
+                            <option value="">請選擇區域</option>
+                            <option v-for="item in districts" :value="item">{{item}}</option>
+                        </select>    
+                    </div>
+
+
+                    <div class="swiperBox">
+                        <div class="swiperPycial">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" v-for="item,key in stores" :key="key">
+                                    <h2>{{item.veeva}}</h2>
+                                    <div class="addr">{{item.address}}</div>
+                                    <a :href="'tel:'+item.tel" type="tel" >{{item.tel}}</a>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <!-- Add Arrows -->
+                        <div class="btnSwiper nexPycial"><i class="fas fa-chevron-right"></i></div>
+                        <div class="btnSwiper prevPycial"><i class="fas fa-chevron-left"></i></div>
+                    </div>   
+
+
+                </div>
+
+            </div>
+            
+        </section>
+
+        <?php require('footer.php'); ?>
+
+
+    </div>
+</body>
+
+</html>
+<script src="<?php echo $rootURL;?>scripts/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="<?php echo $rootURL;?>scripts/global.js"></script>
+<script type="text/javascript" src="<?php echo $rootURL;?>scripts/index.js"></script>
+<script>
+var app = new Vue({
+    el: '#app',
+    data:{
+        kind: 'store',
+        stores: [],
+        citys: [],
+        districts: [],
+        search:{
+            city: '台北市',
+            district: '信義區',
+            option: '產品品項',
+            select: 'close'
+        },
+        options: ['產品品項','愛-A25','EX PLUS 強效錠','EX GOLD 金強效錠'],
+    },
+    methods:{
+        changeKind: function(kind){
+            app.kind = kind;
+        },
+        changeSelect: function(){
+
+            if(app.search.select == 'close'){
+                app.search.select = 'open';
+            }
+            else{
+                app.search.select = 'close';
+            }
+        },
+        setOption: function(item){
+            app.search.option = item
+        },
+        getView: function(){
+            getData(app.search)
+        },
+        getDistricts: function(){
+            $.ajax({
+                url: 'storeAjax.php',
+                type: 'POST',
+                dataType: 'JSON',
+                data: app.search,
+                success: function(res){
+                    app.districts = res.district;
+                    app.search.district = '';
+                    app.getView();
+                }
+            })
+        },
+       
+    },
+    mounted: function(){
+        getData(this.search)
+    }   
+})
+
+function getData($search){
+    $.ajax({
+        url: 'storeAjax.php',
+        type: 'POST',
+        dataType: 'JSON',
+        data: $search,
+        error: function(res){
+
+        },
+        success: function(res){
+            app.citys     = res.city;
+            app.districts = res.district;
+            app.stores    = res.stores;
+            setTimeout(function(){$('.swiper-wrapper').css("transform","translate3d(0,0,0)")},50)
+        }
+    })
+}
+
+jQuery(document).ready(function($) {
+    var storeSwiper = new Swiper('.swiperStore',{
+        slidesPerView: 3,
+        slidesPerColumn: 2,
+        navigation: {
+            nextEl: '.nexStore',
+            prevEl: '.prevStore',
+        },    
+        breakpoints: {
+            640: {
+                slidesPerView: 2,
+            },
+            1024: {
+                slidesPerView: 2,
+            }
+        },    
+    })
+
+    var pycialSwiper = new Swiper('.swiperPycial',{
+        observer: true,
+        observeParents: true,
+        initialSlide: 0,
+        slidesPerView: 2,
+        slidesPerColumn: 3,
+        navigation: {
+            nextEl: '.nexPycial',
+            prevEl: '.prevPycial',
+        },    
+    }) 
+    setTimeout(function(){$('.swiper-wrapper').css("transform","translate3d(0,0,0)")},50)
+
+});
+</script>
