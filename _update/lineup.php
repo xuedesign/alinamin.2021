@@ -53,7 +53,7 @@
                         </div>
                         <p class="mb">一吃有感<br>迅速消除疲勞</p>
                         <div class="btns">
-                            <a href="<?php echo $rootURL;?>product/a25" g-event="全系列產品_A25_產品介紹">產品介紹</a>
+                            <a href="<?php echo $rootURL;?>a25" g-event="全系列產品_A25_產品介紹">產品介紹</a>
                             <a href="<?php echo $rootURL;?>buy/#pcs" g-event="全系列產品_A25_購買通路">購買通路</a>
                         </div>
                     </div>
@@ -73,7 +73,7 @@
                         </div>
                         <p class="mb">改善眼睛疲勞/<br>肩頸僵硬/腰背酸痛</p>
                         <div class="btns">
-                            <a href="<?php echo $rootURL;?>product/explus" g-event="全系列產品_EX PLUS_產品介紹">產品介紹</a>
+                            <a href="<?php echo $rootURL;?>explus" g-event="全系列產品_EX PLUS_產品介紹">產品介紹</a>
                             <a href="<?php echo $rootURL;?>buy/#pcs" g-event="全系列產品_EX PLUS_購買通路">購買通路</a>
                         </div>
                     </div>
@@ -93,7 +93,7 @@
                         </div>
                         <p class="mb">有效緩解<br>末梢發麻/神經痛</p>
                         <div class="btns">
-                            <a href="<?php echo $rootURL;?>product/exgold" g-event="全系列產品_EX GOLD_產品介紹">產品介紹</a>
+                            <a href="<?php echo $rootURL;?>exgold" g-event="全系列產品_EX GOLD_產品介紹">產品介紹</a>
                             <a href="<?php echo $rootURL;?>buy/#pcs" g-event="全系列產品_EX GOLD_購買通路">購買通路</a>
                         </div>
                     </div>
@@ -229,7 +229,7 @@
                                 </div>
                                 <p>飲食習慣造成的營養不均，此時初期缺乏維生素B<i class="f-s-em8">1</i>，產生<b class="c-red">疲勞、無力</b>等症狀。</p>
                                 <p>合利他命醫療級B群愛A25，較一般維生素B<i class="f-s-em8">1</i>更<b class="c-red">易被腸道吸收</b>，轉移至肌肉神經組織，將維生素B<i class="f-s-em8">1</i>轉化為活化型維生素B<i class="f-s-em8">1</i>，<b class="c-red">幫助細胞產生能量</b>，維持神經系統正常運作，一吃有感快速充電，<b class="c-red">從根源輕鬆緩解疲勞、無力問題。</b></p>
-                                <a href="<?php echo $rootURL;?>product/a25" class="link-btn" g-event="5秒快速選擇_檢測結果_A25">
+                                <a href="<?php echo $rootURL;?>a25" class="link-btn" g-event="5秒快速選擇_檢測結果_A25">
                                     前往愛A25
                                 </a>
                             </div>
@@ -265,7 +265,7 @@
                                 </div>
                                 <p>飲食習慣加上內外在壓力，持續缺乏維生素B<i class="f-s-em8">1</i>，產生<b class="c-red">眼睛疲勞、肩頸僵硬及腰背酸痛</b>等症狀。</p>
                                 <p>合利他命EX PLUS強效錠內含高濃度活性<b class="c-red">醫療級B<i class="f-s-em8">1</i>等六大活化強化配方</b>，較一般維生素B<i class="f-s-em8">1</i>更易被腸道吸收，轉移至肌肉神經組織，透過<b class="c-red">酯化作用</b>(Phosphorylation)，將維生素B<i class="f-s-em8">1</i>轉化為活化型維生素B<i class="f-s-em8">1</i>，幫助細胞產生能量，維持神經系統正常運作，甩掉酸痛天天都輕鬆，<b class="c-red">從根源輕鬆緩解眼睛疲勞及身體反覆酸痛問題。</b></p>
-                                <a href="<?php echo $rootURL;?>product/explus" class="link-btn" g-event="5秒快速選擇_檢測結果_EX PLUS">
+                                <a href="<?php echo $rootURL;?>explus" class="link-btn" g-event="5秒快速選擇_檢測結果_EX PLUS">
                                     前往EX PLUS強效錠
                                 </a>
                             </div>
@@ -302,7 +302,7 @@
                                 <p>飲食習慣加上內外在壓力與身體老化，以致持續缺乏維生素B<i class="f-s-em8">1</i>，產生<b class="c-red">肌肉關節神經痛</b>等症狀。
                                 </p>
                                 <p>合利他命EX GOLD金強效錠內含<b class="c-red">B<i class="f-s-em8">1</i>誘導體及全方位活性B群等配方</b>，較一般維生素B群更容易被腸道吸收，轉移至肌肉神經組織，透過<b class="c-red">酯化作用</b>(Phosphorylation)將維生素B<i class="f-s-em8">1</i>轉化為活化型維生素B<i class="f-s-em8">1</i>。合利他命EX GOLD金強效錠能幫助細胞產生能量，維持神經系統正常運作，<b class="c-red">有效緩解血液循環不流暢所引起的手腳發麻、神經痛、肌肉或關節疼痛，從根源有效緩解身體發麻問題。</b></p>
-                                <a href="<?php echo $rootURL;?>product/exgold" class="link-btn" g-event="5秒快速選擇_檢測結果_EX GOLD">
+                                <a href="<?php echo $rootURL;?>exgold" class="link-btn" g-event="5秒快速選擇_檢測結果_EX GOLD">
                                     前往EX GOLD金強效錠
                                 </a>
                             </div>
