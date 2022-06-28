@@ -13,7 +13,7 @@
     <meta name="keywords" content="台灣武田, 合利他命, 醫療級B群, EX PLUS, 強效錠,  Alinamin,眼睛疲勞, 肩頸僵硬, 腰背酸痛, 日本市佔第一, 日本製造, 原裝進口, 同步配方, 高濃度活性B群" />
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="EX PLUS強效錠含六大強效配方，快速作用於神經與肌肉系統，緩解因為缺乏維生素B1而產生的眼睛疲勞、肩頸僵硬與腰酸背痛等症狀">
-    <meta property="og:url" content="<?php echo $rootURL;?>product/explus">
+    <meta property="og:url" content="<?php echo $rootURL;?>explus">
     <link rel="stylesheet" href="<?php echo $rootURL;?>css/style.css">
 </head>
 

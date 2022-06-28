@@ -14,7 +14,7 @@
     <meta name="keywords" content="台灣武田, 合利他命, 醫療級B群,  A25,  Alinamin, 疲勞無力, 日本市佔第一" />
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="愛A25含活性維生素B1誘導體，並添加維生素B2、B6、B12，吸收效果佳，一吃有感迅速消除疲勞">
-    <meta property="og:url" content="<?php echo $rootURL;?>product/a25">
+    <meta property="og:url" content="<?php echo $rootURL;?>a25">
     <link rel="stylesheet" href="<?php echo $rootURL;?>css/style.css">
 </head>
 

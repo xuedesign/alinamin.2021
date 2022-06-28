@@ -28,17 +28,17 @@
         <section class="kv-slide">
             <div class="slide-con">
                 <div class="slide-box">
-                    <a href="<?php echo $rootURL;?>product/a25"></a>
+                    <a href="<?php echo $rootURL;?>a25"></a>
                     <img src="<?php echo $rootURL;?>images/intro/kv_slide1.jpg" alt="A25一吃有感迅速消除疲勞" class="pc">
                     <img src="<?php echo $rootURL;?>images/intro/m_kv_slide1.jpg" alt="A25一吃有感迅速消除疲勞" class="mb">
                 </div>
                 <div class="slide-box sb-2">
-                    <a href="<?php echo $rootURL;?>product/explus"></a>
+                    <a href="<?php echo $rootURL;?>explus"></a>
                     <img src="<?php echo $rootURL;?>images/intro/kv_slide2.jpg" alt="EX PLUS強效錠改善眼睛疲勞肩頸僵硬腰背酸痛" class="pc">
                     <img src="<?php echo $rootURL;?>images/intro/m_kv_slide2.jpg" alt="EX PLUS強效錠改善眼睛疲勞肩頸僵硬腰背酸痛" class="mb">
                 </div>
                 <div class="slide-box">
-                    <a href="<?php echo $rootURL;?>product/exgold"></a>
+                    <a href="<?php echo $rootURL;?>exgold"></a>
                     <img src="<?php echo $rootURL;?>images/intro/kv_slide3.jpg" alt="EX GOLD金強效錠有效緩解末梢發麻神經痛" class="pc">
                     <img src="<?php echo $rootURL;?>images/intro/m_kv_slide3.jpg" alt="EX GOLD金強效錠有效緩解末梢發麻神經痛" class="mb">
                 </div>
@@ -48,21 +48,21 @@
             </div>
             <div class="info-right">
                 <div class="info-pro pro1">
-                    <a href="<?php echo $rootURL;?>product/a25"></a>
+                    <a href="<?php echo $rootURL;?>a25"></a>
                     <img src="<?php echo $rootURL;?>images/intro/pro1.png" alt="">
                     <p>
                         #消除疲勞
                     </p>
                 </div>
                 <div class="info-pro pro2 off">
-                    <a href="<?php echo $rootURL;?>product/explus"></a>
+                    <a href="<?php echo $rootURL;?>explus"></a>
                     <img src="<?php echo $rootURL;?>images/intro/pro2.png" alt="">
                     <p>
                         #緩解酸痛
                     </p>
                 </div>
                 <div class="info-pro pro3 off">
-                    <a href="<?php echo $rootURL;?>product/exgold"></a>
+                    <a href="<?php echo $rootURL;?>exgold"></a>
                     <img src="<?php echo $rootURL;?>images/intro/pro3.png" alt="">
                     <p>
                         #緩解末梢發麻

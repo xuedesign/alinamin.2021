@@ -13,7 +13,7 @@
     <meta name="keywords" content="台灣武田, 合利他命, 醫療級B群, EX GOLD, 金強效錠, Alinamin, 手腳發麻, 嚴重酸痛, 神經痛, 日本市佔第一, 日本製造, 原裝進口, 同步配方, 高濃度活性B群" />
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="EX GOLD金強效錠含活性B1誘導體及全方位活性B群，有效緩解末梢血液循環不流暢所引起的手腳發麻、神經痛、肌肉或關節疼痛">
-    <meta property="og:url" content="<?php echo $rootURL;?>product/exgold">
+    <meta property="og:url" content="<?php echo $rootURL;?>exgold">
     <link rel="stylesheet" href="<?php echo $rootURL;?>css/style.css">
 </head>
 

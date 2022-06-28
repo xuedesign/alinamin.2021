@@ -13,7 +13,7 @@
     <meta name="keywords" content="台灣武田，合利他命，醫療級B群，A25，強效錠，金強效錠，Alinamin，疲勞無力，眼睛疲勞，肩頸僵硬，腰背酸痛，手腳發麻，嚴重酸痛，神經痛，日本市佔第一" />
     <meta property="og:title" content="合利他命-醫療級維他命B群專家">
     <meta property="og:description" content="源自日本，醫療級B群百年安心品牌">
-    <meta property="og:url" content="<?php echo $rootURL;?>product/history">
+    <meta property="og:url" content="<?php echo $rootURL;?>history">
     <link rel="stylesheet" href="<?php echo $rootURL;?>css/history.css">  
 </head>
 
