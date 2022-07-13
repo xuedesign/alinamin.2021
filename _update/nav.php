@@ -21,7 +21,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <a href="<?php echo $rootURL;?>a25" g-event="Nav_了解更多_愛A25">愛A25</a>
                     <a href="<?php echo $rootURL;?>buy/#pcs" g-event="Nav_了解更多_購買通路">購買通路</a>
                     <a href="<?php echo $rootURL;?>QA" g-event="Nav_了解更多_常見問題Q&A">常見問題Q&A</a>
-                    <a href="<?php echo $rootURL;?>history" g-event="Nav_了解更多_合利他命藥品">合利他命藥品</a>
+                    <!-- <a href="<?php echo $rootURL;?>history" g-event="Nav_了解更多_合利他命藥品">合利他命藥品</a> -->
                 </div>
             </div>
             <a href="<?php echo $rootURL;?>." class="nav-home" g-event="Nav_HOME">回首頁</a>
@@ -51,7 +51,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <a href="<?php echo $rootURL;?>a25" g-event="Nav_了解更多_愛A25">愛A25</a>
         <a href="<?php echo $rootURL;?>buy/#pcs" g-event="Nav_了解更多_購買通路">購買通路</a>
         <a href="<?php echo $rootURL;?>QA" g-event="Nav_了解更多_常見問題Q&A">常見問題Q&A</a>
-        <a href="<?php echo $rootURL;?>history" g-event="Nav_了解更多_合利他命藥品">合利他命藥品</a>
+        <!-- <a href="<?php echo $rootURL;?>history" g-event="Nav_了解更多_合利他命藥品">合利他命藥品</a> -->
     </div>
 </div>
 <div class="header-h"></div>
