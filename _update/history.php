@@ -28,7 +28,7 @@
         <div id="box_history">
             <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="150">
                 <!-- <h1>邁向<span>全新的開始</span></h1> -->
-                <img src="images/history/pic_main.png" alt="合利他命藥品股份有限公司">
+                <img src="images/history/pic_main.jpg" alt="合利他命藥品股份有限公司">
                <!--  <h3>於台灣正式成立</h3> -->
                 <p>隨著全球武田藥品工業(Takeda)將消費保健品事業部的產品權利轉移至合利他命藥品(Alinamin pharmaceutical company Ltd.) 。2022年4月，合利他命藥品股份有限公司也於台灣正式成立。我們所有產品的製程將與過去相同，產品的效果與成分也完全相同，感謝您過去對武田藥品工業消費保健品的支持，未來也請您繼續支持合利他命藥品。</p>
                 <p>合利他命藥品在全球擁有多個知名品牌如合利他命、BENZA、Nicorette，跨足多種不同健康保健領域。</p>
