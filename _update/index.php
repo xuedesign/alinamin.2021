@@ -30,7 +30,7 @@
                 <div class="slide-box">
                     <a href="<?php echo $rootURL;?>a25"></a>
                     <img src="<?php echo $rootURL;?>images/intro/kv_slide4.jpg" alt="A25一吃有感迅速消除疲勞" class="pc">
-                    <img src="<?php echo $rootURL;?>images/intro/m_kv_slide4.jpg" alt="A25一吃有感迅速消除疲勞" class="mb">
+                    <img src="<?php echo $rootURL;?>images/intro/m_kv_slide4-1.jpg" alt="A25一吃有感迅速消除疲勞" class="mb">
                 </div>
                 <div class="slide-box">
                     <a href="<?php echo $rootURL;?>a25"></a>
